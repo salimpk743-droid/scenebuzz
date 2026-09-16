@@ -5,25 +5,25 @@
   --font-sans: "Figtree", "Segoe UI", system-ui, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 
-  --color-ink: #12141a;
-  --color-ink-2: #1b1e27;
-  --color-ink-3: #262a36;
-  --color-paper: #f4f1ea;
-  --color-paper-2: #ebe6db;
-  --color-cream: #faf8f4;
-  --color-card: #fffcf7;
+  --color-ink: #101a2b;
+  --color-ink-2: #17243a;
+  --color-ink-3: #22314b;
+  --color-paper: #f3f7fc;
+  --color-paper-2: #e7eef7;
+  --color-cream: #f8fbff;
+  --color-card: #ffffff;
   --color-signal: #c41e3a;
   --color-signal-dark: #9a1730;
   --color-signal-soft: #f3d5da;
-  --color-muted: #5c616b;
-  --color-muted-2: #8a8478;
-  --color-line: #d9d3c7;
-  --color-line-strong: #c4bdb0;
-  --color-night: #0c0e12;
-  --color-night-card: #161922;
-  --color-night-line: #2a2e3a;
-  --color-night-muted: #9aa0ad;
-  --color-night-paper: #e8e4da;
+  --color-muted: #59677b;
+  --color-muted-2: #8794a8;
+  --color-line: #d4deeb;
+  --color-line-strong: #bdcadb;
+  --color-night: #08152b;
+  --color-night-card: #0d2040;
+  --color-night-line: #1e3a61;
+  --color-night-muted: #a9bad2;
+  --color-night-paper: #edf4ff;
 
   --radius-xs: 4px;
   --radius-sm: 8px;
@@ -31,8 +31,8 @@
   --radius-lg: 18px;
   --radius-xl: 28px;
 
-  --shadow-card: 0 1px 0 rgba(18, 20, 26, 0.04), 0 12px 32px -18px rgba(18, 20, 26, 0.28);
-  --shadow-lift: 0 18px 40px -24px rgba(18, 20, 26, 0.4);
+  --shadow-card: 0 1px 0 rgba(16, 26, 43, 0.04), 0 12px 32px -18px rgba(16, 26, 43, 0.28);
+  --shadow-lift: 0 18px 40px -24px rgba(16, 26, 43, 0.4);
 }
 
 @layer base {
