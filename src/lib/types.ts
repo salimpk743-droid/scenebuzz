@@ -1,3 +1,17 @@
+export type PhotoLicense = "owned" | "licensed" | "permission" | "creative_commons" | "public_domain";
+
+export type PhotoAsset = {
+  src: string;
+  alt: string;
+  photographer?: string;
+  source?: string;
+  license?: PhotoLicense;
+  credit?: string;
+  originalUrl?: string;
+  obtainedAt?: string;
+  usageNotes?: string;
+};
+
 export type FormatStats = {
   matches?: number | string;
   innings?: number | string;
@@ -37,6 +51,7 @@ export type Cricketer = {
   t20is?: FormatStats | null;
   statsUpdated: string;
   statsNote: string;
+  photo?: PhotoAsset;
 };
 
 export type Actor = {
@@ -58,6 +73,7 @@ export type Actor = {
   social: { label: string; href: string; verified: boolean }[];
   related: string[];
   featured: boolean;
+  photo?: PhotoAsset;
 };
 
 export type Personality = {
@@ -75,6 +91,7 @@ export type Personality = {
   related: string[];
   featured: boolean;
   unverifiedNote?: string;
+  photo?: PhotoAsset;
 };
 
 export type Drama = {
@@ -96,6 +113,7 @@ export type Drama = {
   whereToWatch: string;
   upcoming?: boolean;
   source?: string;
+  photo?: PhotoAsset;
 };
 
 export type Movie = {
@@ -116,6 +134,7 @@ export type Movie = {
   whereToWatch: string;
   upcoming?: boolean;
   source?: string;
+  photo?: PhotoAsset;
 };
 
 export type Article = {
@@ -135,6 +154,7 @@ export type Article = {
   sources: string[];
   demo: boolean;
   featured?: boolean;
+  photo?: PhotoAsset;
 };
 
 export type SearchDoc = {
