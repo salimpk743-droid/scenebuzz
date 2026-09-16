@@ -1,5 +1,71 @@
 [
   {
+    "slug": "how-psl-changed-t20",
+    "title": "How the PSL changed the T20 calendar for Pakistan fans",
+    "dek": "A league explainer, not a match report. No invented table positions.",
+    "category": "Cricket",
+    "section": "Cricket",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cricket.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "The Pakistan Super League sits in the global T20 window as a home tournament for Pakistan players and a destination for overseas professionals.",
+      "SceneBuzz treats the PSL as its own destination — news, teams and season architecture — rather than a footnote on the cricket home.",
+      "Fixtures, results and points stay empty until an official feed is connected. Franchises, drafts and overseas signings should be confirmed against PCB and league announcements.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "PSL",
+      "T20",
+      "Pakistan"
+    ],
+    "related": [
+      "pakistan-cricket-centre",
+      "why-test-cricket-still-matters"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "pakistan-cricket-centre",
+    "title": "Pakistan cricket sits at the centre of SceneBuzz",
+    "dek": "Why the sports desk is built Pakistan-first, with India as the major secondary cricket audience.",
+    "category": "Cricket",
+    "section": "Cricket",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cricket.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "SceneBuzz is a Pakistan-first media destination. The cricket desk leads with the national side, Pakistani players and the PSL.",
+      "India cricket is covered as the major neighbouring audience — not as a generic worldwide sports wire.",
+      "This explainer does not invent a ranking of teams. It describes how the site is organised.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "Pakistan",
+      "cricket",
+      "PSL"
+    ],
+    "related": [
+      "how-psl-changed-t20",
+      "pakistan-india-cricket-lens"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
     "slug": "why-test-cricket-still-matters",
     "title": "Why Test cricket still structures the sport",
     "dek": "A format primer for readers who meet cricket first through T20 leagues.",
@@ -12,7 +78,7 @@
     "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
     "body": [
       "Test cricket remains the longest examination in the international game: five days, two innings, and a ball that changes behaviour as it ages.",
-      "For SceneBuzz readers across the diaspora, Tests are also a calendar — a way of following Pakistan, India and others through a season rather than a night.",
+      "For SceneBuzz readers in Pakistan and the diaspora, Tests are also a calendar — a way of following Pakistan, then India and others, through a season rather than a night.",
       "This explainer does not rank teams or invent a result. It describes why the format still sits underneath white-ball cricket.",
       "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
     ],
@@ -33,39 +99,6 @@
     "featured": true
   },
   {
-    "slug": "how-psl-changed-t20",
-    "title": "How the PSL changed the T20 calendar for Pakistan fans",
-    "dek": "A league explainer, not a match report. No invented table positions.",
-    "category": "Cricket",
-    "section": "Cricket",
-    "author": "SceneBuzz Editorial Team",
-    "published": "2025-03-12",
-    "updated": "2025-09-01",
-    "hero": "/assets/images/hero-cricket.jpg",
-    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
-    "body": [
-      "The Pakistan Super League sits in the global T20 window as a home tournament for Pakistan players and a destination for overseas professionals.",
-      "SceneBuzz will cover the PSL with fixtures and results only when an official feed is connected. Until then, this page is an architecture sample.",
-      "Franchises, drafts and overseas signings should be confirmed against PCB and league announcements.",
-      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
-    ],
-    "tags": [
-      "PSL",
-      "T20",
-      "Pakistan"
-    ],
-    "related": [
-      "why-test-cricket-still-matters",
-      "shaheen-new-ball"
-    ],
-    "sources": [
-      "Official tournament and network records",
-      "Publicly documented career histories"
-    ],
-    "demo": true,
-    "featured": true
-  },
-  {
     "slug": "pakistan-india-cricket-lens",
     "title": "Pakistan and India cricket, written for a shared audience",
     "dek": "How SceneBuzz covers two neighbours without turning sport into hostility.",
@@ -77,7 +110,7 @@
     "hero": "/assets/images/hero-cricket.jpg",
     "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
     "body": [
-      "SceneBuzz is not a national broadcaster. The cricket desk writes for readers who may support Pakistan, India, both, or neither.",
+      "SceneBuzz is not a national broadcaster. The cricket desk writes Pakistan-first, then for readers who may also follow India.",
       "Bilateral series, World Cups and league cricket all belong on the same site, with the same sourcing rules: no invented scores, no invented quotes.",
       "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
     ],
@@ -95,7 +128,7 @@
       "Publicly documented career histories"
     ],
     "demo": true,
-    "featured": true
+    "featured": false
   },
   {
     "slug": "featured-cricketers-method",
@@ -146,7 +179,8 @@
     ],
     "tags": [
       "Wasim Akram",
-      "Shaheen Afridi"
+      "Shaheen Afridi",
+      "Pakistan"
     ],
     "related": [
       "how-psl-changed-t20",
@@ -298,16 +332,17 @@
     "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
     "body": [
       "Hindi films still open in cinemas, then move to licensed streamers on schedules that vary by title and territory.",
-      "SceneBuzz will not host films or quote unverified box-office figures.",
+      "SceneBuzz will not host films or quote unverified box-office figures. The movies desk is Indian cinema, primarily Bollywood.",
       "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
     ],
     "tags": [
       "Bollywood",
-      "OTT"
+      "OTT",
+      "Indian cinema"
     ],
     "related": [
-      "pakistani-cinema-map",
-      "upcoming-movies-discipline"
+      "upcoming-movies-discipline",
+      "featured-actors-method"
     ],
     "sources": [
       "Official tournament and network records",
@@ -317,41 +352,10 @@
     "featured": true
   },
   {
-    "slug": "pakistani-cinema-map",
-    "title": "A short map of Pakistani cinema for new readers",
-    "dek": "From Khuda Kay Liye to Maula Jatt, without invented grosses.",
-    "category": "Movies",
-    "section": "Movie",
-    "author": "SceneBuzz Editorial Team",
-    "published": "2025-03-12",
-    "updated": "2025-09-01",
-    "hero": "/assets/images/hero-cinema.jpg",
-    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
-    "body": [
-      "Pakistani cinema is not a single genre. Social drama, Punjabi action and festival titles sit on the same SceneBuzz movies desk.",
-      "Each film page lists official viewing language only.",
-      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
-    ],
-    "tags": [
-      "Lollywood",
-      "Maula Jatt"
-    ],
-    "related": [
-      "bollywood-after-theatres",
-      "humsafar-afterlife"
-    ],
-    "sources": [
-      "Official tournament and network records",
-      "Publicly documented career histories"
-    ],
-    "demo": true,
-    "featured": false
-  },
-  {
     "slug": "upcoming-movies-discipline",
-    "title": "Upcoming movies: TBA is a feature, not a gap",
+    "title": "Upcoming Bollywood movies: TBA is a feature, not a gap",
     "dek": "How the films desk avoids fake calendars.",
-    "category": "Movies",
+    "category": "Bollywood",
     "section": "Movie",
     "author": "SceneBuzz Editorial Team",
     "published": "2025-03-12",
@@ -365,7 +369,8 @@
     ],
     "tags": [
       "upcoming",
-      "TBA"
+      "TBA",
+      "Bollywood"
     ],
     "related": [
       "bollywood-after-theatres",
@@ -390,13 +395,14 @@
     "hero": "/assets/images/hero-news.jpg",
     "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
     "body": [
-      "SceneBuzz maintains two featured actor directories. Neither is an objective ranking.",
+      "SceneBuzz maintains two featured actor directories, with Pakistani names listed first. Neither is an objective ranking.",
       "Personal details that cannot be verified stay marked. Social URLs stay empty until they are official.",
       "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
     ],
     "tags": [
       "actors",
-      "methodology"
+      "methodology",
+      "Pakistan"
     ],
     "related": [
       "talk-of-the-town-standards",
@@ -422,7 +428,7 @@
     "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
     "body": [
       "Talk of the Town covers public work: screen credits, modelling campaigns that can be sourced, and confirmed appearances.",
-      "It does not publish measurements, relationship rumours or income claims. Yamini Malhotra’s profile is the design example for that rule.",
+      "Priority is Pakistan, then India, then South Asia. It does not publish measurements, relationship rumours or income claims.",
       "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
     ],
     "tags": [
@@ -473,8 +479,8 @@
   },
   {
     "slug": "football-on-scenebuzz",
-    "title": "Football, on purpose smaller than cricket",
-    "dek": "Why Premier League and World Cup sit in a supporting desk.",
+    "title": "Football stays smaller than cricket on SceneBuzz",
+    "dek": "Why the Premier League is a supporting desk, not a homepage pillar.",
     "category": "Football",
     "section": "Sports",
     "author": "SceneBuzz Editorial Team",
@@ -483,13 +489,12 @@
     "hero": "/assets/images/hero-football.jpg",
     "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
     "body": [
-      "SceneBuzz will cover the Premier League, Champions League and World Cup without letting them crowd the cricket home.",
+      "SceneBuzz will cover football without letting it crowd Pakistan cricket or the PSL.",
       "No live tables are connected in this prototype.",
       "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
     ],
     "tags": [
-      "football",
-      "Premier League"
+      "football"
     ],
     "related": [
       "why-test-cricket-still-matters",

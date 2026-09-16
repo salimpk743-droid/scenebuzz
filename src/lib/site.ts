@@ -1,11 +1,14 @@
 export const SITE = {
   name: "SceneBuzz",
   shortName: "SB",
-  tagline: "Cricket • Movies • Dramas • Celebrities",
-  longTagline: "Cricket • Movies • Dramas • Celebrities • Trending Personalities",
+  tagline: "Pakistan's home for cricket, PSL, dramas and Bollywood",
+  longTagline:
+    "Pakistan cricket • PSL • Pakistani dramas • Bollywood • Indian cinema • Celebrities",
   domain: "https://scenebuzz.com",
   description:
-    "SceneBuzz is a South Asian digital media platform covering cricket, football, Pakistani dramas, Indian and Pakistani cinema, celebrities, and culture for audiences across South Asia and the diaspora.",
+    "SceneBuzz is a Pakistan-first South Asian media destination covering Pakistan cricket, PSL, Pakistani dramas, Bollywood, Indian movies, celebrities and trending South Asian culture. Pakistan is the centre; India is the major secondary market.",
+  positioning:
+    "SceneBuzz is a Pakistan-first South Asian media destination covering Pakistan cricket, PSL, Pakistani dramas, Bollywood, Indian movies, celebrities and trending South Asian culture.",
   locale: "en",
   themeColor: "#12141a",
   accent: "#c41e3a",
@@ -24,49 +27,72 @@ export const SITE = {
   },
 } as const;
 
-export const NAV = [
+/** Primary masthead — the eight destinations a first-time reader should see. */
+export const NAV_PRIMARY = [
   { label: "Home", href: "/" },
-  { label: "Sports", href: "/sports" },
   { label: "Cricket", href: "/cricket" },
-  { label: "Entertainment", href: "/entertainment" },
+  { label: "PSL", href: "/psl" },
   { label: "Pakistani Dramas", href: "/dramas" },
   { label: "Movies", href: "/movies" },
-  { label: "Upcoming Dramas", href: "/upcoming-dramas" },
-  { label: "Upcoming Movies", href: "/upcoming-movies" },
+  { label: "Bollywood", href: "/bollywood" },
   { label: "Celebrities", href: "/actors" },
   { label: "Talk of the Town", href: "/talk-of-the-town" },
+] as const;
+
+export const NAV_SECONDARY = [
+  { label: "Upcoming Dramas", href: "/upcoming-dramas" },
+  { label: "Upcoming Movies", href: "/upcoming-movies" },
+  { label: "Cricket Players", href: "/cricket/players" },
+  { label: "Actors", href: "/actors" },
+  { label: "News", href: "/news" },
   { label: "About", href: "/about" },
-  { label: "Contact", href: "/contact" },
+] as const;
+
+/** @deprecated use NAV_PRIMARY — kept so older imports keep compiling. */
+export const NAV = NAV_PRIMARY;
+
+/** Homepage and hub strip — Cricket | PSL | Pakistani Dramas | Bollywood | Indian Movies | Celebrities | Talk of the Town */
+export const DESTINATIONS = [
+  { label: "Cricket", href: "/cricket" },
+  { label: "PSL", href: "/psl" },
+  { label: "Pakistani Dramas", href: "/dramas" },
+  { label: "Bollywood", href: "/bollywood" },
+  { label: "Indian Movies", href: "/movies" },
+  { label: "Celebrities", href: "/actors" },
+  { label: "Talk of the Town", href: "/talk-of-the-town" },
 ] as const;
 
 export const TRENDING = [
-  { label: "Pakistan Cricket", href: "/cricket" },
-  { label: "PSL", href: "/cricket" },
+  { label: "PSL", href: "/psl" },
   { label: "Pakistani Dramas", href: "/dramas" },
-  { label: "Bollywood", href: "/movies" },
-  { label: "Upcoming Movies", href: "/upcoming-movies" },
-  { label: "Celebrity News", href: "/talk-of-the-town" },
-  { label: "Featured Cricketers", href: "/cricket/players" },
+  { label: "Bollywood", href: "/bollywood" },
+  { label: "Pakistan Cricket", href: "/cricket" },
+  { label: "Indian Movies", href: "/movies" },
+  { label: "Upcoming Dramas", href: "/upcoming-dramas" },
+  { label: "Celebrities", href: "/actors" },
+  { label: "Talk of the Town", href: "/talk-of-the-town" },
 ] as const;
 
 export const FOOTER_COLS = [
   {
-    title: "Sports",
+    title: "Cricket",
     links: [
-      { label: "Sports Home", href: "/sports" },
-      { label: "Cricket", href: "/cricket" },
-      { label: "Players & Legends", href: "/cricket/players" },
-      { label: "Football", href: "/sports/football" },
+      { label: "Cricket Home", href: "/cricket" },
+      { label: "PSL", href: "/psl" },
+      { label: "PSL Teams", href: "/psl/teams" },
+      { label: "PSL Fixtures", href: "/psl/fixtures" },
+      { label: "Pakistani Cricketers", href: "/cricket/players" },
+      { label: "Cricket News", href: "/news" },
     ],
   },
   {
     title: "Entertainment",
     links: [
-      { label: "Entertainment", href: "/entertainment" },
       { label: "Pakistani Dramas", href: "/dramas" },
-      { label: "Movies", href: "/movies" },
       { label: "Upcoming Dramas", href: "/upcoming-dramas" },
-      { label: "Upcoming Movies", href: "/upcoming-movies" },
+      { label: "Movies • Bollywood", href: "/movies" },
+      { label: "Bollywood", href: "/bollywood" },
+      { label: "Upcoming Bollywood", href: "/upcoming-movies" },
     ],
   },
   {

@@ -21,6 +21,7 @@ import { Route as SearchRouteImport } from './routes/search'
 import { Route as TermsRouteImport } from './routes/terms'
 import { Route as ActorsIndexRouteImport } from './routes/actors/index'
 import { Route as ActorsSlugRouteImport } from './routes/actors/$slug'
+import { Route as BollywoodIndexRouteImport } from './routes/bollywood/index'
 import { Route as CricketIndexRouteImport } from './routes/cricket/index'
 import { Route as CricketSlugRouteImport } from './routes/cricket/$slug'
 import { Route as CricketPlayersRouteImport } from './routes/cricket/players'
@@ -31,6 +32,8 @@ import { Route as MoviesIndexRouteImport } from './routes/movies/index'
 import { Route as MoviesSlugRouteImport } from './routes/movies/$slug'
 import { Route as NewsIndexRouteImport } from './routes/news/index'
 import { Route as NewsSlugRouteImport } from './routes/news/$slug'
+import { Route as PslIndexRouteImport } from './routes/psl/index'
+import { Route as PslDeskRouteImport } from './routes/psl/$desk'
 import { Route as SportsIndexRouteImport } from './routes/sports/index'
 import { Route as SportsFootballRouteImport } from './routes/sports/football'
 import { Route as TalkOfTheTownIndexRouteImport } from './routes/talk-of-the-town/index'
@@ -99,6 +102,11 @@ const ActorsSlugRoute = ActorsSlugRouteImport.update({
   path: '/actors/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BollywoodIndexRoute = BollywoodIndexRouteImport.update({
+  id: '/bollywood/',
+  path: '/bollywood/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CricketIndexRoute = CricketIndexRouteImport.update({
   id: '/cricket/',
   path: '/cricket/',
@@ -147,6 +155,16 @@ const NewsIndexRoute = NewsIndexRouteImport.update({
 const NewsSlugRoute = NewsSlugRouteImport.update({
   id: '/news/$slug',
   path: '/news/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PslIndexRoute = PslIndexRouteImport.update({
+  id: '/psl/',
+  path: '/psl/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PslDeskRoute = PslDeskRouteImport.update({
+  id: '/psl/$desk',
+  path: '/psl/$desk',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SportsIndexRoute = SportsIndexRouteImport.update({
@@ -203,15 +221,18 @@ export interface FileRoutesByFullPath {
   '/dramas/$slug': typeof DramasSlugRoute
   '/movies/$slug': typeof MoviesSlugRoute
   '/news/$slug': typeof NewsSlugRoute
+  '/psl/$desk': typeof PslDeskRoute
   '/sports/football': typeof SportsFootballRoute
   '/talk-of-the-town/$slug': typeof TalkOfTheTownSlugRoute
   '/talk-of-the-town/personalities': typeof TalkOfTheTownPersonalitiesRoute
   '/actors/': typeof ActorsIndexRoute
+  '/bollywood/': typeof BollywoodIndexRoute
   '/cricket/': typeof CricketIndexRoute
   '/dramas/': typeof DramasIndexRoute
   '/entertainment/': typeof EntertainmentIndexRoute
   '/movies/': typeof MoviesIndexRoute
   '/news/': typeof NewsIndexRoute
+  '/psl/': typeof PslIndexRoute
   '/sports/': typeof SportsIndexRoute
   '/talk-of-the-town/': typeof TalkOfTheTownIndexRoute
   '/upcoming-dramas/': typeof UpcomingDramasIndexRoute
@@ -234,15 +255,18 @@ export interface FileRoutesByTo {
   '/dramas/$slug': typeof DramasSlugRoute
   '/movies/$slug': typeof MoviesSlugRoute
   '/news/$slug': typeof NewsSlugRoute
+  '/psl/$desk': typeof PslDeskRoute
   '/sports/football': typeof SportsFootballRoute
   '/talk-of-the-town/$slug': typeof TalkOfTheTownSlugRoute
   '/talk-of-the-town/personalities': typeof TalkOfTheTownPersonalitiesRoute
   '/actors': typeof ActorsIndexRoute
+  '/bollywood': typeof BollywoodIndexRoute
   '/cricket': typeof CricketIndexRoute
   '/dramas': typeof DramasIndexRoute
   '/entertainment': typeof EntertainmentIndexRoute
   '/movies': typeof MoviesIndexRoute
   '/news': typeof NewsIndexRoute
+  '/psl': typeof PslIndexRoute
   '/sports': typeof SportsIndexRoute
   '/talk-of-the-town': typeof TalkOfTheTownIndexRoute
   '/upcoming-dramas': typeof UpcomingDramasIndexRoute
@@ -266,15 +290,18 @@ export interface FileRoutesById {
   '/dramas/$slug': typeof DramasSlugRoute
   '/movies/$slug': typeof MoviesSlugRoute
   '/news/$slug': typeof NewsSlugRoute
+  '/psl/$desk': typeof PslDeskRoute
   '/sports/football': typeof SportsFootballRoute
   '/talk-of-the-town/$slug': typeof TalkOfTheTownSlugRoute
   '/talk-of-the-town/personalities': typeof TalkOfTheTownPersonalitiesRoute
   '/actors/': typeof ActorsIndexRoute
+  '/bollywood/': typeof BollywoodIndexRoute
   '/cricket/': typeof CricketIndexRoute
   '/dramas/': typeof DramasIndexRoute
   '/entertainment/': typeof EntertainmentIndexRoute
   '/movies/': typeof MoviesIndexRoute
   '/news/': typeof NewsIndexRoute
+  '/psl/': typeof PslIndexRoute
   '/sports/': typeof SportsIndexRoute
   '/talk-of-the-town/': typeof TalkOfTheTownIndexRoute
   '/upcoming-dramas/': typeof UpcomingDramasIndexRoute
@@ -299,15 +326,18 @@ export interface FileRouteTypes {
     | '/dramas/$slug'
     | '/movies/$slug'
     | '/news/$slug'
+    | '/psl/$desk'
     | '/sports/football'
     | '/talk-of-the-town/$slug'
     | '/talk-of-the-town/personalities'
     | '/actors/'
+    | '/bollywood/'
     | '/cricket/'
     | '/dramas/'
     | '/entertainment/'
     | '/movies/'
     | '/news/'
+    | '/psl/'
     | '/sports/'
     | '/talk-of-the-town/'
     | '/upcoming-dramas/'
@@ -330,15 +360,18 @@ export interface FileRouteTypes {
     | '/dramas/$slug'
     | '/movies/$slug'
     | '/news/$slug'
+    | '/psl/$desk'
     | '/sports/football'
     | '/talk-of-the-town/$slug'
     | '/talk-of-the-town/personalities'
     | '/actors'
+    | '/bollywood'
     | '/cricket'
     | '/dramas'
     | '/entertainment'
     | '/movies'
     | '/news'
+    | '/psl'
     | '/sports'
     | '/talk-of-the-town'
     | '/upcoming-dramas'
@@ -361,15 +394,18 @@ export interface FileRouteTypes {
     | '/dramas/$slug'
     | '/movies/$slug'
     | '/news/$slug'
+    | '/psl/$desk'
     | '/sports/football'
     | '/talk-of-the-town/$slug'
     | '/talk-of-the-town/personalities'
     | '/actors/'
+    | '/bollywood/'
     | '/cricket/'
     | '/dramas/'
     | '/entertainment/'
     | '/movies/'
     | '/news/'
+    | '/psl/'
     | '/sports/'
     | '/talk-of-the-town/'
     | '/upcoming-dramas/'
@@ -393,15 +429,18 @@ export interface RootRouteChildren {
   DramasSlugRoute: typeof DramasSlugRoute
   MoviesSlugRoute: typeof MoviesSlugRoute
   NewsSlugRoute: typeof NewsSlugRoute
+  PslDeskRoute: typeof PslDeskRoute
   SportsFootballRoute: typeof SportsFootballRoute
   TalkOfTheTownSlugRoute: typeof TalkOfTheTownSlugRoute
   TalkOfTheTownPersonalitiesRoute: typeof TalkOfTheTownPersonalitiesRoute
   ActorsIndexRoute: typeof ActorsIndexRoute
+  BollywoodIndexRoute: typeof BollywoodIndexRoute
   CricketIndexRoute: typeof CricketIndexRoute
   DramasIndexRoute: typeof DramasIndexRoute
   EntertainmentIndexRoute: typeof EntertainmentIndexRoute
   MoviesIndexRoute: typeof MoviesIndexRoute
   NewsIndexRoute: typeof NewsIndexRoute
+  PslIndexRoute: typeof PslIndexRoute
   SportsIndexRoute: typeof SportsIndexRoute
   TalkOfTheTownIndexRoute: typeof TalkOfTheTownIndexRoute
   UpcomingDramasIndexRoute: typeof UpcomingDramasIndexRoute
@@ -494,6 +533,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ActorsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/bollywood/': {
+      id: '/bollywood/'
+      path: '/bollywood'
+      fullPath: '/bollywood/'
+      preLoaderRoute: typeof BollywoodIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/cricket/': {
       id: '/cricket/'
       path: '/cricket'
@@ -562,6 +608,20 @@ declare module '@tanstack/react-router' {
       path: '/news/$slug'
       fullPath: '/news/$slug'
       preLoaderRoute: typeof NewsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/psl/': {
+      id: '/psl/'
+      path: '/psl'
+      fullPath: '/psl/'
+      preLoaderRoute: typeof PslIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/psl/$desk': {
+      id: '/psl/$desk'
+      path: '/psl/$desk'
+      fullPath: '/psl/$desk'
+      preLoaderRoute: typeof PslDeskRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sports/': {
@@ -633,15 +693,18 @@ const rootRouteChildren: RootRouteChildren = {
   DramasSlugRoute: DramasSlugRoute,
   MoviesSlugRoute: MoviesSlugRoute,
   NewsSlugRoute: NewsSlugRoute,
+  PslDeskRoute: PslDeskRoute,
   SportsFootballRoute: SportsFootballRoute,
   TalkOfTheTownSlugRoute: TalkOfTheTownSlugRoute,
   TalkOfTheTownPersonalitiesRoute: TalkOfTheTownPersonalitiesRoute,
   ActorsIndexRoute: ActorsIndexRoute,
+  BollywoodIndexRoute: BollywoodIndexRoute,
   CricketIndexRoute: CricketIndexRoute,
   DramasIndexRoute: DramasIndexRoute,
   EntertainmentIndexRoute: EntertainmentIndexRoute,
   MoviesIndexRoute: MoviesIndexRoute,
   NewsIndexRoute: NewsIndexRoute,
+  PslIndexRoute: PslIndexRoute,
   SportsIndexRoute: SportsIndexRoute,
   TalkOfTheTownIndexRoute: TalkOfTheTownIndexRoute,
   UpcomingDramasIndexRoute: UpcomingDramasIndexRoute,

@@ -10,6 +10,7 @@ import { dramas } from "../src/data/dramas.ts";
 import { movies } from "../src/data/movies.ts";
 import { personalities } from "../src/data/personalities.ts";
 import { articles } from "../src/data/articles.ts";
+import { PSL_DESKS } from "../src/data/psl.ts";
 
 const files = {
   "public/data/cricketers.json": cricketers,
@@ -26,19 +27,21 @@ for (const [path, data] of Object.entries(files)) {
 
 const urls = [
   "/",
-  "/sports",
-  "/sports/football",
   "/cricket",
-  "/cricket/players",
-  "/entertainment",
+  "/psl",
   "/dramas",
   "/movies",
+  "/bollywood",
   "/upcoming-dramas",
   "/upcoming-movies",
   "/actors",
   "/talk-of-the-town",
   "/talk-of-the-town/personalities",
+  "/cricket/players",
   "/news",
+  "/entertainment",
+  "/sports",
+  "/sports/football",
   "/search",
   "/about",
   "/contact",
@@ -48,6 +51,7 @@ const urls = [
   "/cookie-policy",
   "/advertising",
 ];
+for (const d of PSL_DESKS) urls.push(`/psl/${d.slug}`);
 for (const p of cricketers) urls.push(`/cricket/${p.slug}`);
 for (const p of actors) urls.push(`/actors/${p.slug}`);
 for (const p of dramas) urls.push(`/dramas/${p.slug}`);

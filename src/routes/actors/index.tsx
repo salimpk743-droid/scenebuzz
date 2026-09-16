@@ -8,8 +8,9 @@ import { pageHead } from "@/lib/seo";
 export const Route = createFileRoute("/actors/")({
   head: () =>
     pageHead({
-      title: "Celebrities & actors",
-      description: "Searchable SceneBuzz directory of featured Pakistani and Indian screen performers.",
+      title: "Celebrities — Pakistani and Indian",
+      description:
+        "Pakistani celebrities first, then Indian and Bollywood actors and actresses. SceneBuzz directories, not rankings.",
       path: "/actors",
     }),
   component: ActorsDirectory,
@@ -32,9 +33,11 @@ function ActorsDirectory() {
   return (
     <main className="sb-container-wide py-8">
       <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Celebrities" }]} />
-      <h1 className="font-display text-4xl">Celebrities</h1>
+      <p className="sb-kicker">Pakistan first · India next</p>
+      <h1 className="mt-2 font-display text-4xl">Celebrities</h1>
       <p className="mt-3 max-w-3xl text-muted">
-        Featured Pakistani actors and featured Indian actors — directories, not objective rankings.
+        Pakistani actors, actresses, hosts and screen talent first. Indian and Bollywood names
+        follow. This is not a worldwide celebrity database and not an objective ranking.
       </p>
       <div className="mt-6 flex flex-col gap-3 md:flex-row">
         <input
@@ -51,12 +54,12 @@ function ActorsDirectory() {
           aria-label="Industry"
         >
           <option value="all">All</option>
-          <option value="pakistan">Featured Pakistani actors</option>
-          <option value="india">Featured Indian actors</option>
+          <option value="pakistan">Pakistani celebrities</option>
+          <option value="india">Indian / Bollywood</option>
         </select>
       </div>
       <section className="mt-10">
-        <h2 className="font-display text-2xl">Featured Pakistani actors</h2>
+        <h2 className="font-display text-2xl">Pakistani celebrities</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {pk.map((a) => (
             <ProfileCard key={a.slug} name={a.name} href={`/actors/${a.slug}`} country={a.nationality} meta={a.profession} />
@@ -64,7 +67,7 @@ function ActorsDirectory() {
         </div>
       </section>
       <section className="mt-12">
-        <h2 className="font-display text-2xl">Featured Indian actors</h2>
+        <h2 className="font-display text-2xl">Indian / Bollywood celebrities</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {inn.map((a) => (
             <ProfileCard key={a.slug} name={a.name} href={`/actors/${a.slug}`} country={a.nationality} meta={a.profession} />

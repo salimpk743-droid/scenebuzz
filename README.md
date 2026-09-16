@@ -1,8 +1,10 @@
 # SceneBuzz
 
-**Cricket • Movies • Dramas • Celebrities • Trending Personalities**
+**Pakistan's home for cricket, PSL, dramas and Bollywood**
 
-SceneBuzz is a South Asian digital media website covering cricket, football, Pakistani dramas, Indian and Pakistani cinema, celebrities and Talk of the Town personalities.
+SceneBuzz is a Pakistan-first South Asian media website. Pakistan is the centre. India is the major secondary market (Bollywood, Indian cinema, Indian celebrities). South Asia is the broader regional umbrella — not a generic worldwide entertainment brand.
+
+Primary desks: Pakistan cricket, PSL, Pakistani dramas, Bollywood / Indian movies, celebrities, Talk of the Town.
 
 Production canonical URL: [https://scenebuzz.com](https://scenebuzz.com)
 
@@ -24,9 +26,9 @@ Open the printed local URL. There is no database and no required API key.
 ## Folder structure
 
 ```
-src/routes/          Pages (home, cricket, dramas, movies, actors, Talk of the Town, news, legal)
+src/routes/          Pages (home, cricket, PSL, dramas, movies, Bollywood, actors, Talk of the Town, news, legal)
 src/components/      Header, footer, cards, stats, portraits
-src/data/            Cricketers, actors, personalities, dramas, movies, articles
+src/data/            Cricketers, actors, personalities, dramas, movies, PSL, articles
 src/lib/             Types, search, SEO helpers, site config
 public/assets/       Logo, editorial stills, favicon
 public/data/         JSON mirrors of the TypeScript records
@@ -52,7 +54,7 @@ Edit `src/data/personalities.ts`. Follow the Yamini Malhotra example: profession
 
 ## How to add a drama or movie
 
-Edit `src/data/dramas.ts` or `src/data/movies.ts`. Unconfirmed dates must be `TBA` or `Expected`. `whereToWatch` must stay official. Do not add pirate links.
+Edit `src/data/dramas.ts` or `src/data/movies.ts`. Movies on SceneBuzz are Indian cinema / Bollywood first. Unconfirmed dates must be `TBA` or `Expected`. `whereToWatch` must stay official. Do not add pirate links.
 
 ## How to add an article
 
@@ -61,6 +63,10 @@ Edit `src/data/articles.ts`. Prototype pieces use author `SceneBuzz Editorial Te
 ## How to update the sitemap
 
 Add a `<url><loc>https://scenebuzz.com/…</loc></url>` for every new indexable page. Keep `robots.txt` pointing at `https://scenebuzz.com/sitemap.xml`.
+
+```bash
+npm run export-data
+```
 
 ## How to replace images
 
@@ -81,28 +87,3 @@ Do not commit API keys. Future variables:
 - `CRICKET_API_KEY`
 - `NEWS_API_KEY`
 - `ANALYTICS_ID`
-
-## Analytics, newsletter, advertising
-
-- Analytics: do not load a tracker before cookie consent. Put the ID in an environment variable, not in git.
-- Newsletter: the form stores addresses in the browser only. Connect Buttondown, Mailchimp, Loops or a similar API later.
-- Advertising: labeled placeholders exist in the header, homepage, article and sidebar. Connect an ad server when ready.
-
-## Future CMS / cricket API
-
-Records are plain objects in `src/data`. A headless CMS or cricket API can replace those modules without changing the page templates. Do not pretend an API is live until it is.
-
-## Legal
-
-`about`, `privacy-policy`, `terms`, `disclaimer`, `cookie-policy`, `advertising` and `contact` use placeholders:
-
-`[LEGAL BUSINESS NAME]`, `[OWNER NAME]`, `[CONTACT EMAIL]`, `[COUNTRY]`, `[ADDRESS]`, `[DATE]`
-
-Have a qualified lawyer review them for the jurisdictions that apply to the business and audience.
-
-## Editorial standards
-
-- Sample content is labeled Sample / Demo.
-- Statistics last-updated notes appear on player pages.
-- Rumours are not printed as facts.
-- Talk of the Town is mainstream and advertiser-friendly.

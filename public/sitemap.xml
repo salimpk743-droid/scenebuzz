@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- SceneBuzz sitemap. Add a <url> for every new indexable page as the site grows. Source of truth: src/data/*.ts -->
+<!-- SceneBuzz sitemap. Add a <url> for every new indexable page as the site grows. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://scenebuzz.com/</loc></url>
-  <url><loc>https://scenebuzz.com/sports</loc></url>
-  <url><loc>https://scenebuzz.com/sports/football</loc></url>
   <url><loc>https://scenebuzz.com/cricket</loc></url>
-  <url><loc>https://scenebuzz.com/cricket/players</loc></url>
-  <url><loc>https://scenebuzz.com/entertainment</loc></url>
+  <url><loc>https://scenebuzz.com/psl</loc></url>
   <url><loc>https://scenebuzz.com/dramas</loc></url>
   <url><loc>https://scenebuzz.com/movies</loc></url>
+  <url><loc>https://scenebuzz.com/bollywood</loc></url>
   <url><loc>https://scenebuzz.com/upcoming-dramas</loc></url>
   <url><loc>https://scenebuzz.com/upcoming-movies</loc></url>
   <url><loc>https://scenebuzz.com/actors</loc></url>
   <url><loc>https://scenebuzz.com/talk-of-the-town</loc></url>
   <url><loc>https://scenebuzz.com/talk-of-the-town/personalities</loc></url>
+  <url><loc>https://scenebuzz.com/cricket/players</loc></url>
   <url><loc>https://scenebuzz.com/news</loc></url>
+  <url><loc>https://scenebuzz.com/entertainment</loc></url>
+  <url><loc>https://scenebuzz.com/sports</loc></url>
+  <url><loc>https://scenebuzz.com/sports/football</loc></url>
   <url><loc>https://scenebuzz.com/search</loc></url>
   <url><loc>https://scenebuzz.com/about</loc></url>
   <url><loc>https://scenebuzz.com/contact</loc></url>
@@ -23,6 +25,16 @@
   <url><loc>https://scenebuzz.com/disclaimer</loc></url>
   <url><loc>https://scenebuzz.com/cookie-policy</loc></url>
   <url><loc>https://scenebuzz.com/advertising</loc></url>
+  <url><loc>https://scenebuzz.com/psl/news</loc></url>
+  <url><loc>https://scenebuzz.com/psl/teams</loc></url>
+  <url><loc>https://scenebuzz.com/psl/players</loc></url>
+  <url><loc>https://scenebuzz.com/psl/fixtures</loc></url>
+  <url><loc>https://scenebuzz.com/psl/results</loc></url>
+  <url><loc>https://scenebuzz.com/psl/points-table</loc></url>
+  <url><loc>https://scenebuzz.com/psl/records</loc></url>
+  <url><loc>https://scenebuzz.com/psl/draft</loc></url>
+  <url><loc>https://scenebuzz.com/psl/match-reports</loc></url>
+  <url><loc>https://scenebuzz.com/psl/seasons</loc></url>
   <url><loc>https://scenebuzz.com/cricket/wasim-akram</loc></url>
   <url><loc>https://scenebuzz.com/cricket/imran-khan</loc></url>
   <url><loc>https://scenebuzz.com/cricket/waqar-younis</loc></url>
@@ -230,7 +242,6 @@
   <url><loc>https://scenebuzz.com/movies/tba-bollywood-film</loc></url>
   <url><loc>https://scenebuzz.com/movies/tba-telugu-film</loc></url>
   <url><loc>https://scenebuzz.com/movies/tba-tamil-film</loc></url>
-  <url><loc>https://scenebuzz.com/movies/tba-international-film</loc></url>
   <url><loc>https://scenebuzz.com/movies/tba-ott-film</loc></url>
   <url><loc>https://scenebuzz.com/talk-of-the-town/yamini-malhotra</loc></url>
   <url><loc>https://scenebuzz.com/talk-of-the-town/mehwish-hayat-tot</loc></url>
@@ -244,8 +255,9 @@
   <url><loc>https://scenebuzz.com/talk-of-the-town/sajal-public</loc></url>
   <url><loc>https://scenebuzz.com/talk-of-the-town/iqra-public</loc></url>
   <url><loc>https://scenebuzz.com/talk-of-the-town/alia-public</loc></url>
-  <url><loc>https://scenebuzz.com/news/why-test-cricket-still-matters</loc></url>
   <url><loc>https://scenebuzz.com/news/how-psl-changed-t20</loc></url>
+  <url><loc>https://scenebuzz.com/news/pakistan-cricket-centre</loc></url>
+  <url><loc>https://scenebuzz.com/news/why-test-cricket-still-matters</loc></url>
   <url><loc>https://scenebuzz.com/news/pakistan-india-cricket-lens</loc></url>
   <url><loc>https://scenebuzz.com/news/featured-cricketers-method</loc></url>
   <url><loc>https://scenebuzz.com/news/shaheen-new-ball</loc></url>
@@ -254,7 +266,6 @@
   <url><loc>https://scenebuzz.com/news/humsafar-afterlife</loc></url>
   <url><loc>https://scenebuzz.com/news/upcoming-dramas-tba</loc></url>
   <url><loc>https://scenebuzz.com/news/bollywood-after-theatres</loc></url>
-  <url><loc>https://scenebuzz.com/news/pakistani-cinema-map</loc></url>
   <url><loc>https://scenebuzz.com/news/upcoming-movies-discipline</loc></url>
   <url><loc>https://scenebuzz.com/news/featured-actors-method</loc></url>
   <url><loc>https://scenebuzz.com/news/talk-of-the-town-standards</loc></url>

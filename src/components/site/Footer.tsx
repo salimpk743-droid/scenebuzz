@@ -11,7 +11,7 @@ export function Footer() {
               SCENE<span className="ml-1 font-sans text-lg font-extrabold tracking-[0.12em]">BUZZ</span>
             </p>
             <p className="mt-2 text-sm text-paper/65">{SITE.tagline}</p>
-            <p className="mt-4 text-sm text-paper/65">{SITE.description}</p>
+            <p className="mt-4 text-sm text-paper/65">{SITE.positioning}</p>
           </div>
           <div className="grid flex-1 grid-cols-2 gap-8 sm:grid-cols-4">
             {FOOTER_COLS.map((col) => (
@@ -21,8 +21,8 @@ export function Footer() {
                 </p>
                 <ul className="mt-3 space-y-2">
                   {col.links.map((link) => (
-                    <li key={link.href}>
-                      <Link to={link.href} className="text-sm text-paper/80 hover:text-paper">
+                    <li key={link.href + link.label}>
+                      <Link to={link.href as "/"} className="text-sm text-paper/80 hover:text-paper">
                         {link.label}
                       </Link>
                     </li>
@@ -34,7 +34,7 @@ export function Footer() {
         </div>
         <div className="mt-10 flex flex-col gap-2 border-t border-ink-3 pt-6 text-xs text-paper/50 md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} SceneBuzz. All rights reserved.</p>
-          <p>Editorial prototype. Sample content is labeled. Statistics must be verified before publication.</p>
+          <p>Pakistan first. India next. Sample editorial is labeled. Statistics must be verified before publication.</p>
         </div>
       </div>
     </footer>

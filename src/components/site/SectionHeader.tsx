@@ -18,7 +18,7 @@ export function SectionHeader({ kicker, title, href, action = "See all" }: Props
       </div>
       {href ? (
         <Link
-          to={href}
+          to={href as "/"}
           className="shrink-0 text-sm font-semibold text-signal hover:underline"
         >
           {action}

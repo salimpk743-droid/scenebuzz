@@ -7,7 +7,7 @@ export const Route = createFileRoute("/about")({
   head: () =>
     pageHead({
       title: "About",
-      description: "About SceneBuzz, a South Asian digital media platform for cricket, dramas, cinema and culture.",
+      description: SITE.description,
       path: "/about",
     }),
   component: AboutPage,
@@ -19,16 +19,21 @@ function AboutPage() {
       <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "About" }]} />
       <h1 className="font-display text-4xl">About SceneBuzz</h1>
       <div className="sb-prose mt-6">
+        <p>{SITE.positioning}</p>
         <p>
-          SceneBuzz is being built as a South Asian digital media brand covering cricket, football,
-          Pakistani dramas, Indian and Pakistani cinema, celebrities and culture. The audience is
-          international: Pakistan, India, Bangladesh, Sri Lanka, Nepal, the Gulf, the UK, North
-          America, Australia and the wider diaspora.
+          Pakistan is the centre of the website. India is the major secondary market, especially
+          for Bollywood, Indian movies and Indian celebrities. South Asia is the broader regional
+          umbrella — not a generic worldwide entertainment brand.
+        </p>
+        <p>
+          The primary desks are Pakistan cricket, the PSL, Pakistani dramas, Bollywood, Indian
+          cinema, celebrities and Talk of the Town. Hollywood, American entertainment and European
+          entertainment are not major sections.
         </p>
         <p>
           The publication is original. Sample articles in this prototype are labeled as demo
           content. Statistics are published career records or marked for verification. Rumours are
-          not presented as fact.
+          not presented as fact. SceneBuzz does not host films or drama episodes.
         </p>
         <p>
           Legal entity details will appear here once they are confirmed: {SITE.legal.businessName},{" "}

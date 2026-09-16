@@ -12,7 +12,7 @@ export function TrendingBar() {
           {TRENDING.map((item) => (
             <li key={item.label} className="shrink-0">
               <Link
-                to={item.href}
+                to={item.href as "/"}
                 className="text-sm text-paper/80 hover:text-paper hover:underline"
               >
                 {item.label}

@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { Menu, Moon, Search, Sun, X } from "lucide-react";
 import { useEffect, useState, type FormEvent } from "react";
-import { NAV } from "@/lib/site";
+import { NAV_PRIMARY, NAV_SECONDARY } from "@/lib/site";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -36,30 +36,33 @@ export function Header() {
       <div className="sb-container-wide">
         <div className="flex min-h-16 items-center justify-between gap-3 py-2 md:min-h-[4.5rem] md:py-3">
           <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="SceneBuzz home">
-            <span className="inline-block h-8 w-1.5 rounded-full bg-signal" aria-hidden="true" />
+            <span className="inline-block h-8 w-1.5 bg-signal" aria-hidden="true" />
             <span className="leading-none">
               <span className="block font-display text-[1.55rem] font-medium tracking-[-0.05em] text-ink dark:text-night-paper sm:text-[1.75rem]">
                 SCENE
                 <span className="ml-1 font-sans text-[1rem] font-extrabold tracking-[0.1em] sm:text-[1.08rem]">BUZZ</span>
+              </span>
+              <span className="mt-0.5 hidden text-[0.62rem] font-semibold uppercase tracking-[0.12em] text-muted sm:block">
+                Pakistan first
               </span>
             </span>
           </Link>
 
           <form
             onSubmit={onSearch}
-            className="hidden min-w-0 flex-1 items-center justify-center px-4 lg:flex"
+            className="hidden min-w-0 flex-1 items-center justify-center px-4 md:flex"
             role="search"
           >
             <label className="sr-only" htmlFor="global-search">
               Search SceneBuzz
             </label>
-            <div className="relative w-full max-w-xl">
+            <div className="relative w-full max-w-sm lg:max-w-xl">
               <Search className="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-muted" />
               <input
                 id="global-search"
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
-                placeholder="Search players, actors, dramas, movies…"
+                placeholder="Search PSL, dramas, Bollywood…"
                 className="h-11 w-full rounded-full border border-line bg-card pl-10 pr-4 text-sm shadow-sm outline-none transition focus:border-signal focus:ring-2 focus:ring-signal/10 dark:border-night-line dark:bg-night-card"
               />
             </div>
@@ -76,7 +79,7 @@ export function Header() {
             </button>
             <Link
               to="/search"
-              className="inline-flex size-11 items-center justify-center rounded-full transition hover:bg-paper-2 lg:hidden dark:hover:bg-night-card"
+              className="inline-flex size-11 items-center justify-center rounded-full transition hover:bg-paper-2 md:hidden dark:hover:bg-night-card"
               aria-label="Search"
             >
               <Search className="size-5" />
@@ -86,22 +89,42 @@ export function Header() {
               className="inline-flex size-11 items-center justify-center rounded-full transition hover:bg-paper-2 lg:hidden dark:hover:bg-night-card"
               aria-expanded={open}
               aria-controls="mobile-nav"
+              aria-label={open ? "Close menu" : "Open menu"}
               onClick={() => setOpen((v) => !v)}
             >
               {open ? <X className="size-6" /> : <Menu className="size-6" />}
-              <span className="sr-only">Menu</span>
             </button>
           </div>
         </div>
 
-        <nav className="hidden overflow-x-auto border-t border-line py-1.5 lg:block dark:border-night-line sb-scrollbar-none" aria-label="Primary">
+        <nav
+          className="hidden overflow-x-auto border-t border-line py-1.5 lg:block dark:border-night-line sb-scrollbar-none"
+          aria-label="Primary"
+        >
           <ul className="flex min-w-max items-center gap-1">
-            {NAV.map((item) => (
+            {NAV_PRIMARY.map((item) => (
               <li key={item.href}>
                 <Link
                   to={item.href as "/"}
-                  className="inline-flex h-9 items-center whitespace-nowrap rounded-full px-3 text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-ink/75 transition hover:bg-paper-2 hover:text-signal dark:text-night-paper/75 dark:hover:bg-night-card"
-                  activeProps={{ className: "bg-signal text-paper hover:bg-signal hover:text-paper" }}
+                  className="inline-flex h-9 items-center whitespace-nowrap px-3 text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-ink/75 transition hover:text-signal dark:text-night-paper/75"
+                  activeProps={{ className: "text-signal" }}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <nav
+          className="hidden overflow-x-auto border-t border-line/70 py-1 lg:block dark:border-night-line sb-scrollbar-none"
+          aria-label="Secondary"
+        >
+          <ul className="flex min-w-max items-center gap-1">
+            {NAV_SECONDARY.map((item) => (
+              <li key={item.href + item.label}>
+                <Link
+                  to={item.href as "/"}
+                  className="inline-flex h-8 items-center whitespace-nowrap px-3 text-[0.68rem] font-medium uppercase tracking-[0.1em] text-muted hover:text-signal"
                 >
                   {item.label}
                 </Link>
@@ -126,18 +149,32 @@ export function Header() {
                 id="mobile-search"
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
-                placeholder="Search SceneBuzz"
-                className="h-12 w-full rounded-xl border border-line bg-card pl-10 pr-4 shadow-sm outline-none focus:border-signal focus:ring-2 focus:ring-signal/10 dark:border-night-line dark:bg-night-card"
+                placeholder="Search PSL, dramas, Bollywood…"
+                className="h-12 w-full rounded-md border border-line bg-card pl-10 pr-4 shadow-sm outline-none focus:border-signal focus:ring-2 focus:ring-signal/10 dark:border-night-line dark:bg-night-card"
               />
             </div>
           </form>
-          <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
-            {NAV.map((item) => (
+          <p className="sb-kicker mb-2">Destinations</p>
+          <ul className="grid grid-cols-2 gap-1.5">
+            {NAV_PRIMARY.map((item) => (
               <li key={item.href}>
                 <Link
                   to={item.href as "/"}
-                  className="flex min-h-11 items-center rounded-xl px-3 text-sm font-semibold transition hover:bg-paper-2 dark:hover:bg-night-card"
-                  activeProps={{ className: "bg-signal text-paper hover:bg-signal" }}
+                  className="flex min-h-12 items-center justify-center bg-ink px-3 text-center text-[0.72rem] font-bold uppercase tracking-[0.1em] text-paper hover:bg-signal"
+                  onClick={() => setOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="sb-kicker mt-4 mb-2">More</p>
+          <ul className="grid gap-1">
+            {NAV_SECONDARY.map((item) => (
+              <li key={item.href + item.label}>
+                <Link
+                  to={item.href as "/"}
+                  className="flex min-h-11 items-center px-1 text-sm text-muted"
                   onClick={() => setOpen(false)}
                 >
                   {item.label}

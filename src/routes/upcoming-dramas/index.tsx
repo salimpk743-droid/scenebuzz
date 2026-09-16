@@ -7,8 +7,9 @@ import { pageHead } from "@/lib/seo";
 export const Route = createFileRoute("/upcoming-dramas/")({
   head: () =>
     pageHead({
-      title: "Upcoming dramas",
-      description: "Announced Pakistani dramas. Unconfirmed dates are listed as TBA. SceneBuzz never invents release dates.",
+      title: "Upcoming Pakistani dramas",
+      description:
+        "Announced Pakistani dramas. Unconfirmed dates are listed as TBA. SceneBuzz never invents release dates.",
       path: "/upcoming-dramas",
     }),
   component: UpcomingDramas,
@@ -18,8 +19,15 @@ function UpcomingDramas() {
   const list = dramas.filter((d) => d.upcoming || d.status === "Upcoming" || d.status === "TBA");
   return (
     <main className="sb-container-wide py-8">
-      <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Upcoming dramas" }]} />
-      <h1 className="font-display text-4xl">Upcoming dramas</h1>
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Pakistani dramas", href: "/dramas" },
+          { name: "Upcoming dramas" },
+        ]}
+      />
+      <p className="sb-kicker">Pakistan · Hum · ARY · Geo</p>
+      <h1 className="mt-2 font-display text-4xl">Upcoming Pakistani dramas</h1>
       <p className="mt-3 max-w-2xl text-muted">
         If a date is not confirmed, SceneBuzz prints TBA or Expected — never a guessed calendar date.
       </p>

@@ -574,30 +574,6 @@
     "source": "TBA"
   },
   {
-    "slug": "tba-international-film",
-    "title": "Major international title (TBA)",
-    "genre": [
-      "Drama"
-    ],
-    "language": "English",
-    "country": "International",
-    "release": "TBA",
-    "status": "Upcoming",
-    "director": "TBA",
-    "writer": "TBA",
-    "cast": [
-      {
-        "name": "TBA"
-      }
-    ],
-    "synopsis": "Slot for a global title with South Asian diaspora interest once a studio date is public.",
-    "runtime": "TBA",
-    "production": "TBA",
-    "whereToWatch": "Check official theatrical listings and licensed streamers in your region. SceneBuzz does not host films or unauthorized copies.",
-    "upcoming": true,
-    "source": "TBA"
-  },
-  {
     "slug": "tba-ott-film",
     "title": "OTT feature (TBA)",
     "genre": [
