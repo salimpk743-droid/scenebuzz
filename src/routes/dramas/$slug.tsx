@@ -2,6 +2,7 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { ShareBar } from "@/components/site/ShareBar";
 import { PhotoAttribution } from "@/components/media/PhotoCredit";
+import { TitleBanner } from "@/components/media/TitleBanner";
 import { getDrama } from "@/lib/data";
 import { mediaPaths } from "@/lib/media";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
@@ -14,13 +15,18 @@ export const Route = createFileRoute("/dramas/$slug")({
 
 function DramaPage() {
   const d = Route.useLoaderData();
-  const banner = d.photo ?? { src: mediaPaths.dramaBanner(d.slug), alt: `${d.title} banner` };
+  const banner = d.photo;
+  const meta = `${d.genre.join(" · ")} · ${d.language} · ${d.country}`;
   return (
     <main className="sb-container-wide py-8">
       <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Dramas", href: "/dramas" }, { name: d.title }]} />
       <div className="overflow-hidden rounded-xl border border-line bg-card dark:border-night-line dark:bg-night-card">
-        <div className="relative h-64 md:h-96"><img src={banner.src} alt={banner.alt} className="h-full w-full object-cover" onError={(event) => { event.currentTarget.src = "/assets/images/hero-drama.jpg"; }} /><div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" /><div className="absolute inset-x-0 bottom-0 p-5 text-paper md:p-8"><p className="sb-kicker text-signal-soft">{d.status}</p><h1 className="mt-2 font-display text-4xl md:text-5xl">{d.title}</h1><p className="mt-2 text-sm text-paper/80">{d.genre.join(" · ")} · {d.language} · {d.country}</p></div></div>
-        {d.photo ? <div className="px-5 pb-2 md:px-8"><PhotoAttribution photo={d.photo} /></div> : <p className="px-5 py-2 text-xs text-muted md:px-8">Banner slot: <code>{mediaPaths.dramaBanner(d.slug)}</code></p>}
+        <div className="relative h-64 md:h-96">
+          {banner ? <img src={banner.src} alt={banner.alt} className="h-full w-full object-cover" loading="eager" /> : <TitleBanner title={d.title} eyebrow="Pakistani drama" meta={meta} />}
+          <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+          <div className="absolute inset-x-0 bottom-0 p-5 text-paper md:p-8"><p className="sb-kicker text-signal-soft">{d.status}</p><h1 className="mt-2 font-display text-4xl md:text-5xl">{d.title}</h1><p className="mt-2 text-sm text-paper/80">{meta}</p></div>
+        </div>
+        {banner ? <div className="px-5 pb-2 md:px-8"><PhotoAttribution photo={banner} /></div> : <p className="px-5 py-2 text-xs text-muted md:px-8">Original SceneBuzz editorial banner shown until a licensed drama image is supplied.</p>}
       </div>
       <div className="mt-8"><dl className="grid gap-2 text-sm sm:grid-cols-2 lg:grid-cols-3"><div><dt className="text-muted">Network / platform</dt><dd>{d.network}</dd></div><div><dt className="text-muted">Release</dt><dd>{d.release}</dd></div><div><dt className="text-muted">Director</dt><dd>{d.director}</dd></div><div><dt className="text-muted">Writer</dt><dd>{d.writer}</dd></div><div><dt className="text-muted">Producer</dt><dd>{d.producer}</dd></div><div><dt className="text-muted">Episodes</dt><dd>{d.episodes}</dd></div></dl></div>
       <section className="mt-8 max-w-3xl"><h2 className="font-display text-2xl">Synopsis</h2><p className="mt-3">{d.synopsis}</p></section>
