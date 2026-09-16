@@ -52,6 +52,7 @@ function PlayersDirectory() {
       </p>
       <div className="mt-6 grid gap-3 md:grid-cols-4">
         <input
+          id="player-search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
           placeholder="Search by player name"
