@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { Menu, Moon, Search, Sun, X } from "lucide-react";
 import { useEffect, useState, type FormEvent } from "react";
-import { NAV, SITE } from "@/lib/site";
+import { NAV } from "@/lib/site";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -34,40 +34,41 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-cream/95 backdrop-blur dark:border-night-line dark:bg-night/95">
       <div className="sb-container-wide">
-        <div className="flex h-16 items-center justify-between gap-3 md:h-[4.5rem]">
-          <Link to="/" className="flex items-center gap-3" aria-label="SceneBuzz home">
-            <span className="inline-block h-8 w-1.5 bg-signal" aria-hidden="true" />
+        <div className="flex min-h-16 items-center justify-between gap-3 py-2 md:min-h-[4.5rem] md:py-3">
+          <Link to="/" className="flex shrink-0 items-center gap-2.5" aria-label="SceneBuzz home">
+            <span className="inline-block h-8 w-1.5 rounded-full bg-signal" aria-hidden="true" />
             <span className="leading-none">
-              <span className="block font-display text-[1.65rem] font-medium tracking-[-0.04em] text-ink dark:text-night-paper">
-                SCENE<span className="ml-1 font-sans text-[1.15rem] font-extrabold tracking-[0.12em]">BUZZ</span>
+              <span className="block font-display text-[1.55rem] font-medium tracking-[-0.05em] text-ink dark:text-night-paper sm:text-[1.75rem]">
+                SCENE
+                <span className="ml-1 font-sans text-[1rem] font-extrabold tracking-[0.1em] sm:text-[1.08rem]">BUZZ</span>
               </span>
             </span>
           </Link>
 
           <form
             onSubmit={onSearch}
-            className="hidden min-w-0 flex-1 items-center justify-end md:flex"
+            className="hidden min-w-0 flex-1 items-center justify-center px-4 lg:flex"
             role="search"
           >
             <label className="sr-only" htmlFor="global-search">
               Search SceneBuzz
             </label>
-            <div className="relative w-full max-w-sm">
-              <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted" />
+            <div className="relative w-full max-w-xl">
+              <Search className="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-muted" />
               <input
                 id="global-search"
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
-                placeholder="Search players, dramas, movies…"
-                className="h-11 w-full rounded-full border border-line bg-card pl-10 pr-4 text-sm outline-none focus:border-signal dark:border-night-line dark:bg-night-card"
+                placeholder="Search players, actors, dramas, movies…"
+                className="h-11 w-full rounded-full border border-line bg-card pl-10 pr-4 text-sm shadow-sm outline-none transition focus:border-signal focus:ring-2 focus:ring-signal/10 dark:border-night-line dark:bg-night-card"
               />
             </div>
           </form>
 
-          <div className="flex items-center gap-1">
+          <div className="flex shrink-0 items-center gap-1">
             <button
               type="button"
-              className="inline-flex size-11 items-center justify-center rounded-full text-ink dark:text-night-paper"
+              className="inline-flex size-11 items-center justify-center rounded-full text-ink transition hover:bg-paper-2 dark:text-night-paper dark:hover:bg-night-card"
               onClick={toggleTheme}
               aria-label={dark ? "Switch to light mode" : "Switch to dark mode"}
             >
@@ -75,14 +76,14 @@ export function Header() {
             </button>
             <Link
               to="/search"
-              className="inline-flex size-11 items-center justify-center rounded-full md:hidden"
+              className="inline-flex size-11 items-center justify-center rounded-full transition hover:bg-paper-2 lg:hidden dark:hover:bg-night-card"
               aria-label="Search"
             >
               <Search className="size-5" />
             </Link>
             <button
               type="button"
-              className="inline-flex size-11 items-center justify-center rounded-full lg:hidden"
+              className="inline-flex size-11 items-center justify-center rounded-full transition hover:bg-paper-2 lg:hidden dark:hover:bg-night-card"
               aria-expanded={open}
               aria-controls="mobile-nav"
               onClick={() => setOpen((v) => !v)}
@@ -93,14 +94,14 @@ export function Header() {
           </div>
         </div>
 
-        <nav className="hidden border-t border-line py-2 lg:block dark:border-night-line" aria-label="Primary">
-          <ul className="flex flex-wrap items-center gap-x-5 gap-y-1">
+        <nav className="hidden overflow-x-auto border-t border-line py-1.5 lg:block dark:border-night-line sb-scrollbar-none" aria-label="Primary">
+          <ul className="flex min-w-max items-center gap-1">
             {NAV.map((item) => (
               <li key={item.href}>
                 <Link
                   to={item.href as "/"}
-                  className="inline-flex h-10 items-center text-[0.78rem] font-semibold uppercase tracking-[0.12em] text-ink/80 hover:text-signal dark:text-night-paper/80"
-                  activeProps={{ className: "text-signal" }}
+                  className="inline-flex h-9 items-center whitespace-nowrap rounded-full px-3 text-[0.72rem] font-semibold uppercase tracking-[0.1em] text-ink/75 transition hover:bg-paper-2 hover:text-signal dark:text-night-paper/75 dark:hover:bg-night-card"
+                  activeProps={{ className: "bg-signal text-paper hover:bg-signal hover:text-paper" }}
                 >
                   {item.label}
                 </Link>
@@ -113,26 +114,30 @@ export function Header() {
       {open ? (
         <div
           id="mobile-nav"
-          className="border-t border-line bg-cream px-4 py-4 lg:hidden dark:border-night-line dark:bg-night"
+          className="border-t border-line bg-cream px-3 py-3 shadow-lg lg:hidden dark:border-night-line dark:bg-night"
         >
-          <form onSubmit={onSearch} className="mb-4" role="search">
+          <form onSubmit={onSearch} className="mb-3" role="search">
             <label className="sr-only" htmlFor="mobile-search">
               Search SceneBuzz
             </label>
-            <input
-              id="mobile-search"
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              placeholder="Search SceneBuzz"
-              className="h-12 w-full rounded-md border border-line bg-card px-4 dark:border-night-line dark:bg-night-card"
-            />
+            <div className="relative">
+              <Search className="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-muted" />
+              <input
+                id="mobile-search"
+                value={q}
+                onChange={(e) => setQ(e.target.value)}
+                placeholder="Search SceneBuzz"
+                className="h-12 w-full rounded-xl border border-line bg-card pl-10 pr-4 shadow-sm outline-none focus:border-signal focus:ring-2 focus:ring-signal/10 dark:border-night-line dark:bg-night-card"
+              />
+            </div>
           </form>
-          <ul className="grid gap-1">
+          <ul className="grid grid-cols-2 gap-1.5 sm:grid-cols-3">
             {NAV.map((item) => (
               <li key={item.href}>
                 <Link
                   to={item.href as "/"}
-                  className="flex min-h-11 items-center text-base font-medium"
+                  className="flex min-h-11 items-center rounded-xl px-3 text-sm font-semibold transition hover:bg-paper-2 dark:hover:bg-night-card"
+                  activeProps={{ className: "bg-signal text-paper hover:bg-signal" }}
                   onClick={() => setOpen(false)}
                 >
                   {item.label}
