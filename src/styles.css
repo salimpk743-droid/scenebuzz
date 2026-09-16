@@ -40,6 +40,23 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     scroll-behavior: smooth;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    min-width: 320px;
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.55;
+  }
+
+  body,
+  button,
+  input,
+  textarea,
+  select {
+    -webkit-tap-highlight-color: transparent;
   }
 
   button:not(:disabled),
@@ -52,16 +69,10 @@
     outline-offset: 3px;
   }
 
-  body {
-    font-family: var(--font-sans);
-    background: var(--color-paper);
-    color: var(--color-ink);
-    line-height: 1.55;
-  }
-
   h1,
   h2,
   h3,
+  h4,
   .font-display {
     font-family: var(--font-display);
     text-wrap: balance;
@@ -70,6 +81,20 @@
 
   p {
     text-wrap: pretty;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  a {
+    text-underline-offset: 0.2em;
+  }
+
+  ::selection {
+    background: var(--color-signal);
+    color: #fff;
   }
 
   html.dark body {
@@ -92,7 +117,7 @@
   .sb-kicker {
     font-family: var(--font-sans);
     font-size: 0.6875rem;
-    font-weight: 650;
+    font-weight: 700;
     letter-spacing: 0.16em;
     text-transform: uppercase;
     color: var(--color-signal);
@@ -120,12 +145,41 @@
   .tabular {
     font-variant-numeric: tabular-nums;
   }
+
+  .sb-card-hover {
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+  }
+
+  .sb-card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lift);
+  }
+
+  .sb-scrollbar-none {
+    scrollbar-width: none;
+  }
+
+  .sb-scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .sb-container,
+  .sb-container-wide {
+    width: min(100% - 1.25rem, 1320px);
+  }
+
+  .sb-prose {
+    font-size: 1rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
+
   *,
   *::before,
   *::after {
