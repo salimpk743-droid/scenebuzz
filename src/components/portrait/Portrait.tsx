@@ -1,3 +1,5 @@
+import type { PhotoAsset } from "@/lib/types";
+import { PhotoCredit } from "@/components/media/PhotoCredit";
 import { hashHue, initials } from "@/lib/format";
 
 const COUNTRY_TONES: Record<string, [string, string]> = {
@@ -23,6 +25,7 @@ type Props = {
   country?: string;
   size?: "sm" | "md" | "lg" | "hero";
   className?: string;
+  photo?: PhotoAsset;
 };
 
 const SIZES = {
@@ -32,31 +35,25 @@ const SIZES = {
   hero: "h-full w-full min-h-56 text-6xl",
 };
 
-export function Portrait({ name, country, size = "md", className = "" }: Props) {
+export function Portrait({ name, country, size = "md", className = "", photo }: Props) {
   const [c1, c2] = tones(name, country);
   const h = hashHue(name);
   const offset = (h % 40) - 20;
   return (
-    <div
-      className={`relative overflow-hidden ${SIZES[size]} ${className}`}
-      style={{
-        background: `linear-gradient(160deg, ${c1} 0%, ${c2} 100%)`,
-      }}
-      aria-hidden="true"
-    >
-      <div
-        className="absolute inset-0 opacity-40"
-        style={{
-          background: `radial-gradient(circle at ${40 + offset}% 30%, rgba(244,241,234,0.22), transparent 46%)`,
-        }}
-      />
-      <div
-        className="absolute -right-6 -bottom-8 h-28 w-28 rotate-12 opacity-20"
-        style={{ border: "12px solid #f4f1ea", borderRadius: "40%" }}
-      />
-      <span className="relative z-10 flex h-full w-full items-center justify-center font-display font-medium tracking-tight text-paper">
-        {initials(name)}
-      </span>
+    <div className={`relative overflow-hidden ${SIZES[size]} ${className}`} style={{ background: `linear-gradient(160deg, ${c1} 0%, ${c2} 100%)` }}>
+      {photo ? (
+        <>
+          <img src={photo.src} alt={photo.alt || name} className="absolute inset-0 h-full w-full object-cover" loading={size === "hero" ? "eager" : "lazy"} onError={(event) => { event.currentTarget.style.display = "none"; }} />
+          <div className="absolute inset-0 bg-ink/10" />
+        </>
+      ) : (
+        <>
+          <div className="absolute inset-0 opacity-40" style={{ background: `radial-gradient(circle at ${40 + offset}% 30%, rgba(244,241,234,0.22), transparent 46%)` }} />
+          <div className="absolute -right-6 -bottom-8 h-28 w-28 rotate-12 opacity-20" style={{ border: "12px solid #f4f1ea", borderRadius: "40%" }} />
+          <span className="relative z-10 flex h-full w-full items-center justify-center font-display font-medium tracking-tight text-paper">{initials(name)}</span>
+        </>
+      )}
+      {photo?.credit || photo?.photographer || photo?.source ? <PhotoCredit photo={photo} className="absolute bottom-1 left-2 z-20 rounded bg-ink/75 px-1.5 py-0.5 text-paper" /> : null}
     </div>
   );
 }
