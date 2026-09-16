@@ -69,10 +69,12 @@ Editorial stills live in `public/assets/images/`. They are original generated st
 ## Deploy on Vercel (from GitHub)
 
 1. Repository: [github.com/salimpk743-droid/scenebuzz](https://github.com/salimpk743-droid/scenebuzz).
-2. In Vercel, import that GitHub repo (or reconnect the Vercel GitHub app if prompted). Framework: Vite / TanStack Start (auto-detected).
+2. In Vercel, import that GitHub repo (or reconnect the Vercel GitHub app if prompted). Framework: TanStack Start.
 3. Production branch: `main`. Pushes redeploy automatically.
 4. Attach the custom domain **scenebuzz.com** in Vercel → Project → Settings → Domains. Add the DNS records Vercel shows (usually an A record and a CNAME for `www`).
 5. Canonical tags already use `https://scenebuzz.com`.
+
+The Vercel Git integration has been reconnected and this commit is intentionally being used to trigger a fresh deployment.
 
 Do not commit API keys. Future variables:
 
