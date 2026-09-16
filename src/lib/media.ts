@@ -13,10 +13,10 @@ const LICENSED_CELEBRITY_PHOTOS: Record<string, PhotoAsset> = {
 };
 
 export const mediaPaths = {
-  celebrity: (country: "pakistan" | "india", slug: string): PhotoAsset => LICENSED_CELEBRITY_PHOTOS[slug] ?? { src: `/images/celebrities/${country}/${slug}/profile.jpg`, alt: `${slug.replaceAll("-", " ")} portrait` },
+  celebrity: (country: "pakistan" | "india", slug: string): PhotoAsset => LICENSED_CELEBRITY_PHOTOS[slug] ?? { src: `/images/celebrities/${country}/${slug}/profile.svg`, alt: `${slug.replaceAll("-", " ")} portrait` },
   cricketer: (slug: string) => `/images/cricket/players/${slug}/profile.jpg`,
-  dramaBanner: (slug: string) => `/images/dramas/pakistan/${slug}/banner.jpg`,
-  movieBanner: (slug: string) => `/images/movies/bollywood/${slug}/banner.jpg`,
+  dramaBanner: (slug: string) => `/images/dramas/pakistan/${slug}/banner.svg`,
+  movieBanner: (slug: string) => `/images/movies/bollywood/${slug}/banner.svg`,
 };
 
 export function withDefaultPhoto(src: string, alt: string): PhotoAsset {
