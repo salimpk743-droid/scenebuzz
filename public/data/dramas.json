@@ -1,0 +1,704 @@
+[
+  {
+    "slug": "humsafar",
+    "title": "Humsafar",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2011",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Fawad Khan",
+        "slug": "fawad-khan",
+        "role": "Ashar"
+      },
+      {
+        "name": "Mahira Khan",
+        "slug": "mahira-khan",
+        "role": "Khirad"
+      }
+    ],
+    "director": "Sarmad Khoosat",
+    "writer": "Farhat Ishtiaq",
+    "producer": "Momina Duraid",
+    "synopsis": "A contracted marriage between cousins becomes the centre of a family drama that remains one of the most cited Pakistani serials of the 2010s.",
+    "episodes": "23 (widely reported — verify)",
+    "ost": "OST credited in original broadcasts; confirm current licensed audio before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "zindagi-gulzar-hai",
+    "title": "Zindagi Gulzar Hai",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2012",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Fawad Khan",
+        "slug": "fawad-khan"
+      },
+      {
+        "name": "Sanam Saeed",
+        "slug": "sanam-saeed"
+      }
+    ],
+    "director": "Sultana Siddiqui",
+    "writer": "Umera Ahmad",
+    "producer": "Momina Duraid",
+    "synopsis": "Class, civil-service careers and a marriage of opposites, adapted from Umera Ahmad’s novel.",
+    "episodes": "26 (widely reported — verify)",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "mere-paas-tum-ho",
+    "title": "Mere Paas Tum Ho",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "ARY Digital",
+    "release": "2019",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Humayun Saeed",
+        "slug": "humayun-saeed"
+      },
+      {
+        "name": "Ayeza Khan",
+        "slug": "ayeza-khan"
+      },
+      {
+        "name": "Adnan Siddiqui",
+        "slug": "adnan-siddiqui"
+      }
+    ],
+    "director": "Nadeem Baig",
+    "writer": "Khalil-ur-Rehman Qamar",
+    "producer": "Six Sigma Plus",
+    "synopsis": "A marital-breakdown serial that drew large television audiences in Pakistan and among the diaspora.",
+    "episodes": "Verify episode count before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "parizaad",
+    "title": "Parizaad",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2021",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Ahmed Ali Akbar"
+      },
+      {
+        "name": "Yumna Zaidi",
+        "slug": "yumna-zaidi"
+      },
+      {
+        "name": "Durefishan Saleem",
+        "slug": "durefishan-saleem"
+      }
+    ],
+    "director": "Shahzad Kashmiri",
+    "writer": "Hashim Nadeem",
+    "producer": "MD Productions",
+    "synopsis": "A dark-skinned poet’s navigation of class and colour prejudice in urban Pakistan.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "ehd-e-wafa",
+    "title": "Ehd-e-Wafa",
+    "genre": [
+      "Drama",
+      "Friendship"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2019",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Ahad Raza Mir",
+        "slug": "ahad-raza-mir"
+      },
+      {
+        "name": "Ramsha Khan",
+        "slug": "ramsha-khan"
+      },
+      {
+        "name": "Madiha Imam",
+        "slug": "madiha-imam"
+      },
+      {
+        "name": "Zara Noor Abbas",
+        "slug": "zara-noor-abbas"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Mustafa Afridi",
+    "producer": "Verify before publication.",
+    "synopsis": "Four friends whose lives intersect with military service, class and loyalty.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "mere-humsafar",
+    "title": "Mere Humsafar",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "ARY Digital",
+    "release": "2021",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Ayeza Khan",
+        "slug": "ayeza-khan"
+      },
+      {
+        "name": "Farhan Saeed",
+        "slug": "farhan-saeed"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "A marriage-of-circumstance serial that became a major ARY Digital title of the early 2020s.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "tere-bin",
+    "title": "Tere Bin",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Geo Entertainment",
+    "release": "2022",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Yumna Zaidi",
+        "slug": "yumna-zaidi"
+      },
+      {
+        "name": "Wahaj Ali",
+        "slug": "wahaj-ali"
+      }
+    ],
+    "director": "Ahmed Bhatti (verify)",
+    "writer": "Neelam Raza (verify)",
+    "producer": "7th Sky Entertainment",
+    "synopsis": "A forced-marriage story that drew large audiences on Geo Entertainment and online clips.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "kabhi-main-kabhi-tum",
+    "title": "Kabhi Main Kabhi Tum",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "ARY Digital",
+    "release": "2024",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Fahad Mustafa",
+        "slug": "fahad-mustafa"
+      },
+      {
+        "name": "Hania Aamir",
+        "slug": "hania-aamir"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "A campus-to-marriage serial pairing Fahad Mustafa and Hania Aamir. Confirm episode and crew credits against the original broadcaster.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "ishq-murshid",
+    "title": "Ishq Murshid",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2023",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Wahaj Ali",
+        "slug": "wahaj-ali"
+      },
+      {
+        "name": "Sehar Khan",
+        "slug": "sehar-khan"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "A Hum TV serial that followed Wahaj Ali’s post–Tere Bin visibility. Confirm credits before publication.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "sinf-e-ahan",
+    "title": "Sinf-e-Aahan",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "ARY Digital",
+    "release": "2021",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Ramsha Khan",
+        "slug": "ramsha-khan"
+      },
+      {
+        "name": "Yumna Zaidi",
+        "slug": "yumna-zaidi"
+      },
+      {
+        "name": "Sajal Aly",
+        "slug": "sajal-aly"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Mustafa Afridi",
+    "producer": "Verify before publication.",
+    "synopsis": "Women training at the Pakistan Military Academy, produced with documented institutional cooperation — confirm production notes before restating.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "dobara",
+    "title": "Dobara",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2021",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Hadiqa Kiani"
+      },
+      {
+        "name": "Bilal Abbas Khan",
+        "slug": "bilal-abbas-khan"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "A later-life romance serial. Confirm cast list against original titles.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "kuch-ankahi",
+    "title": "Kuch Ankahi",
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "ARY Digital",
+    "release": "2023",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Sehar Khan",
+        "slug": "sehar-khan"
+      },
+      {
+        "name": "Bilal Abbas Khan",
+        "slug": "bilal-abbas-khan"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "A family-and-career serial. Confirm credits before publication.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "pyar-ke-sadqay",
+    "title": "Pyar Ke Sadqay",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2020",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Yumna Zaidi",
+        "slug": "yumna-zaidi"
+      },
+      {
+        "name": "Bilal Abbas Khan",
+        "slug": "bilal-abbas-khan"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "A Hum TV pairing of Yumna Zaidi and Bilal Abbas Khan.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "raqs-e-bismil",
+    "title": "Raqs-e-Bismil",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2021",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Imran Ashraf",
+        "slug": "imran-ashraf"
+      },
+      {
+        "name": "Sarah Khan",
+        "slug": "sarah-khan"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Imran Ashraf (verify writing credit)",
+    "producer": "Verify before publication.",
+    "synopsis": "A serial involving a dancer’s household and a conservative family. Confirm plot summary against original episodes before expanding.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "fairy-tale",
+    "title": "Fairytale",
+    "genre": [
+      "Romance"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "2023",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Sehar Khan",
+        "slug": "sehar-khan"
+      },
+      {
+        "name": "Ali Sohan Mir"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "A lighter Hum TV romance. Confirm credits before publication.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "khaie",
+    "title": "Khaie",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Geo Entertainment",
+    "release": "2024",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Danish Taimoor",
+        "slug": "danish-taimoor"
+      },
+      {
+        "name": "Sarah Khan",
+        "slug": "sarah-khan"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "A Geo Entertainment serial. Confirm plot and credits against the broadcaster before expanding.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "jaan-nisar",
+    "title": "Jaan Nisar",
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "ARY Digital",
+    "release": "2024",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Danish Taimoor",
+        "slug": "danish-taimoor"
+      },
+      {
+        "name": "Ayeza Khan",
+        "slug": "ayeza-khan"
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "An ARY Digital pairing. Confirm credits before publication.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "sunn-mere-dil",
+    "title": "Sunn Mere Dil",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "TBA",
+    "status": "Aired",
+    "cast": [
+      {
+        "name": "Verify cast before publication."
+      }
+    ],
+    "director": "Verify before publication.",
+    "writer": "Verify before publication.",
+    "producer": "Verify before publication.",
+    "synopsis": "Catalogued as a Hum TV title. Confirm year, cast and episode count against the original broadcast before treating this page as complete.",
+    "episodes": "Verify before publication.",
+    "ost": "Confirm licensed recording before embedding.",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files."
+  },
+  {
+    "slug": "untitled-hum-tv-project",
+    "title": "Untitled Hum TV project",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Hum TV",
+    "release": "TBA",
+    "status": "TBA",
+    "cast": [
+      {
+        "name": "TBA"
+      }
+    ],
+    "director": "TBA",
+    "writer": "TBA",
+    "producer": "TBA",
+    "synopsis": "Placeholder for an announced network project. Release date is not confirmed.",
+    "episodes": "TBA",
+    "ost": "TBA",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files.",
+    "upcoming": true,
+    "source": "Awaiting official network announcement."
+  },
+  {
+    "slug": "untitled-ary-project",
+    "title": "Untitled ARY Digital project",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "ARY Digital",
+    "release": "TBA",
+    "status": "Upcoming",
+    "cast": [
+      {
+        "name": "TBA"
+      }
+    ],
+    "director": "TBA",
+    "writer": "TBA",
+    "producer": "TBA",
+    "synopsis": "Placeholder card for a forthcoming ARY title. SceneBuzz will not invent a date or cast list.",
+    "episodes": "TBA",
+    "ost": "TBA",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files.",
+    "upcoming": true,
+    "source": "Expected — official announcement pending."
+  },
+  {
+    "slug": "untitled-geo-project",
+    "title": "Untitled Geo Entertainment project",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Geo Entertainment",
+    "release": "TBA",
+    "status": "TBA",
+    "cast": [
+      {
+        "name": "TBA"
+      }
+    ],
+    "director": "TBA",
+    "writer": "TBA",
+    "producer": "TBA",
+    "synopsis": "Slot reserved for a Geo announcement. Status: TBA.",
+    "episodes": "TBA",
+    "ost": "TBA",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files.",
+    "upcoming": true,
+    "source": "TBA"
+  },
+  {
+    "slug": "green-entertainment-tba",
+    "title": "Green Entertainment title (TBA)",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "Green Entertainment",
+    "release": "Expected",
+    "status": "Upcoming",
+    "cast": [
+      {
+        "name": "TBA"
+      }
+    ],
+    "director": "TBA",
+    "writer": "TBA",
+    "producer": "TBA",
+    "synopsis": "Upcoming-drama architecture example. Replace with a verified announcement.",
+    "episodes": "TBA",
+    "ost": "TBA",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files.",
+    "upcoming": true,
+    "source": "Expected"
+  },
+  {
+    "slug": "ott-urdu-tba",
+    "title": "OTT Urdu original (TBA)",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "OTT — platform TBA",
+    "release": "TBA",
+    "status": "TBA",
+    "cast": [
+      {
+        "name": "TBA"
+      }
+    ],
+    "director": "TBA",
+    "writer": "TBA",
+    "producer": "TBA",
+    "synopsis": "Reserved for a licensed streaming original once a platform issues a public date.",
+    "episodes": "TBA",
+    "ost": "TBA",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files.",
+    "upcoming": true,
+    "source": "TBA"
+  },
+  {
+    "slug": "diaspora-coproduction-tba",
+    "title": "Diaspora co-production (TBA)",
+    "genre": [
+      "Drama"
+    ],
+    "language": "Urdu",
+    "country": "Pakistan",
+    "network": "TBA",
+    "release": "TBA",
+    "status": "TBA",
+    "cast": [
+      {
+        "name": "TBA"
+      }
+    ],
+    "director": "TBA",
+    "writer": "TBA",
+    "producer": "TBA",
+    "synopsis": "Architecture example for a UK/Gulf co-production. No invented partners or dates.",
+    "episodes": "TBA",
+    "ost": "TBA",
+    "whereToWatch": "Official broadcasts on the originating network and authorized apps or official YouTube channels where the network publishes them. SceneBuzz does not host or link to unauthorized episode files.",
+    "upcoming": true,
+    "source": "TBA"
+  }
+]

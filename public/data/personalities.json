@@ -1,0 +1,421 @@
+[
+  {
+    "slug": "yamini-malhotra",
+    "name": "Yamini Malhotra",
+    "profession": "Actress, model",
+    "country": "India",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Model",
+      "Television",
+      "Rising Star"
+    ],
+    "knownFor": [
+      "Television role as Shivani Chavan in Ghum Hai Kisikey Pyaar Mein (widely reported).",
+      "Punjabi film Main Teri Tu Mera (2016) (widely reported).",
+      "Wild-card contestant on Bigg Boss 18 (widely reported)."
+    ],
+    "bio": "Yamini Malhotra is an Indian actress and model. SceneBuzz records only professional credits that are widely reported across multiple outlets. Date of birth is widely reported as 20 September 1993 in New Delhi; that date is not independently verified by SceneBuzz. This profile does not publish measurements, relationship status, family details, income or invented quotations.",
+    "television": [
+      "Ghum Hai Kisikey Pyaar Mein — role widely reported as Shivani Chavan (2020).",
+      "Bigg Boss 18 — wild-card contestant (2024), widely reported."
+    ],
+    "film": [
+      "Main Teri Tu Mera (Punjabi, 2016) — role widely reported as Kammo.",
+      "Chuttalabbayi (Telugu, 2016) — widely reported.",
+      "Dil Hona Chahida Jawaan (Punjabi, 2023) — widely reported; confirm credit before expanding."
+    ],
+    "modeling": [
+      "Commercial modelling work is widely reported, including advertisements associated with LG Mobile, Club Mahindra, Haier and Goodknight. SceneBuzz has not independently audited those brand contracts."
+    ],
+    "appearances": [
+      "Public television appearances connected to Bigg Boss 18 coverage in 2024. Individual red-carpet lists should be confirmed against event organisers."
+    ],
+    "related": [
+      "priyanka-chopra",
+      "kiara-advani",
+      "hania-aamir",
+      "mehwish-hayat"
+    ],
+    "featured": true,
+    "unverifiedNote": "Age, family, income and social-media follower counts are not published here. Information not currently verified remains unlabeled as fact."
+  },
+  {
+    "slug": "mehwish-hayat-tot",
+    "name": "Mehwish Hayat",
+    "profession": "Actress, singer",
+    "country": "Pakistan",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Fashion",
+      "Television"
+    ],
+    "knownFor": [
+      "Punjab Nahi Jaungi",
+      "Load Wedding"
+    ],
+    "bio": "Mehwish Hayat is a Pakistani actress and singer whose public work spans film, television and music. Talk of the Town covers professional appearances only.",
+    "television": [
+      "Verify serial titles before publication."
+    ],
+    "film": [
+      "Punjab Nahi Jaungi",
+      "Load Wedding"
+    ],
+    "modeling": [
+      "Brand and campaign work should be confirmed against official announcements."
+    ],
+    "appearances": [
+      "Public premieres tied to released films. Confirm each event before listing."
+    ],
+    "related": [
+      "yamini-malhotra",
+      "hania-aamir",
+      "mahira-public"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "hania-aamir-tot",
+    "name": "Hania Aamir",
+    "profession": "Actress",
+    "country": "Pakistan",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Television",
+      "Rising Star"
+    ],
+    "knownFor": [
+      "Kabhi Main Kabhi Tum (television, 2024)"
+    ],
+    "bio": "Hania Aamir is a Pakistani actress. This Talk of the Town card points to her professional screen work rather than private life.",
+    "television": [
+      "Kabhi Main Kabhi Tum",
+      "Ishq-e-Laa"
+    ],
+    "film": [
+      "Parwaaz Hai Junoon"
+    ],
+    "modeling": [
+      "Information not currently verified."
+    ],
+    "appearances": [
+      "Information not currently verified."
+    ],
+    "related": [
+      "yamini-malhotra",
+      "mehwish-hayat-tot",
+      "sehar-public"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "mahira-public",
+    "name": "Mahira Khan",
+    "profession": "Actress",
+    "country": "Pakistan",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Fashion",
+      "Television"
+    ],
+    "knownFor": [
+      "Humsafar",
+      "Bin Roye"
+    ],
+    "bio": "Mahira Khan is a Pakistani actress. Fashion and public-appearance notes belong on Talk of the Town only when they are confirmed events.",
+    "television": [
+      "Humsafar"
+    ],
+    "film": [
+      "Bin Roye",
+      "Superstar"
+    ],
+    "modeling": [
+      "Campaigns should be confirmed against brand statements."
+    ],
+    "appearances": [
+      "Festival and premiere appearances — confirm against organisers."
+    ],
+    "related": [
+      "hania-aamir-tot",
+      "mehwish-hayat-tot"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "deepika-public",
+    "name": "Deepika Padukone",
+    "profession": "Actress, producer",
+    "country": "India",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Fashion"
+    ],
+    "knownFor": [
+      "Hindi cinema; public mental-health advocacy is widely documented as professional work."
+    ],
+    "bio": "Deepika Padukone is an Indian actress and producer. Talk of the Town notes public, professional appearances only.",
+    "television": [
+      "Information not currently verified."
+    ],
+    "film": [
+      "Piku",
+      "Padmaavat",
+      "Pathaan"
+    ],
+    "modeling": [
+      "Ramp and campaign work should be confirmed against official show notes."
+    ],
+    "appearances": [
+      "Cannes and other festival appearances are widely reported; confirm each year before listing."
+    ],
+    "related": [
+      "priyanka-public",
+      "yamini-malhotra"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "priyanka-public",
+    "name": "Priyanka Chopra Jonas",
+    "profession": "Actress, producer",
+    "country": "India",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Fashion",
+      "Television"
+    ],
+    "knownFor": [
+      "Hindi cinema; Quantico"
+    ],
+    "bio": "Priyanka Chopra Jonas is an Indian actress and producer with work in film and English-language television.",
+    "television": [
+      "Quantico"
+    ],
+    "film": [
+      "Mary Kom",
+      "The Sky Is Pink"
+    ],
+    "modeling": [
+      "Information not currently verified."
+    ],
+    "appearances": [
+      "Met Gala and other fashion events are widely reported; confirm each year."
+    ],
+    "related": [
+      "deepika-public",
+      "yamini-malhotra"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "sehar-public",
+    "name": "Sehar Khan",
+    "profession": "Actress",
+    "country": "Pakistan",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Television",
+      "Rising Star"
+    ],
+    "knownFor": [
+      "Kuch Ankahi",
+      "Fairytale",
+      "Ishq Murshid"
+    ],
+    "bio": "Sehar Khan is a Pakistani television actress. SceneBuzz covers credited serials, not private life.",
+    "television": [
+      "Kuch Ankahi",
+      "Fairytale",
+      "Ishq Murshid"
+    ],
+    "film": [
+      "Information not currently verified."
+    ],
+    "modeling": [
+      "Information not currently verified."
+    ],
+    "appearances": [
+      "Information not currently verified."
+    ],
+    "related": [
+      "hania-aamir-tot",
+      "yamini-malhotra"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "kiara-public",
+    "name": "Kiara Advani",
+    "profession": "Actress",
+    "country": "India",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Fashion"
+    ],
+    "knownFor": [
+      "Kabir Singh",
+      "Shershaah"
+    ],
+    "bio": "Kiara Advani is an Indian actress. Public-appearance coverage stays limited to confirmed professional events.",
+    "television": [
+      "Information not currently verified."
+    ],
+    "film": [
+      "Kabir Singh",
+      "Shershaah"
+    ],
+    "modeling": [
+      "Information not currently verified."
+    ],
+    "appearances": [
+      "Information not currently verified."
+    ],
+    "related": [
+      "deepika-public",
+      "yamini-malhotra"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "nayanthara-public",
+    "name": "Nayanthara",
+    "profession": "Actress, producer",
+    "country": "India",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Fashion"
+    ],
+    "knownFor": [
+      "South Indian cinema"
+    ],
+    "bio": "Nayanthara is an Indian actress and producer. Confirm individual film titles before expanding this card.",
+    "television": [
+      "Information not currently verified."
+    ],
+    "film": [
+      "Verify titles before publication."
+    ],
+    "modeling": [
+      "Information not currently verified."
+    ],
+    "appearances": [
+      "Information not currently verified."
+    ],
+    "related": [
+      "deepika-public",
+      "priyanka-public"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "sajal-public",
+    "name": "Sajal Aly",
+    "profession": "Actress",
+    "country": "Pakistan",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Television",
+      "Fashion"
+    ],
+    "knownFor": [
+      "Pakistani television serials; Cake"
+    ],
+    "bio": "Sajal Aly is a Pakistani actress. Talk of the Town repeats only professional credits.",
+    "television": [
+      "O Rangreza",
+      "Aangan"
+    ],
+    "film": [
+      "Cake"
+    ],
+    "modeling": [
+      "Information not currently verified."
+    ],
+    "appearances": [
+      "Information not currently verified."
+    ],
+    "related": [
+      "mahira-public",
+      "hania-aamir-tot"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "iqra-public",
+    "name": "Iqra Aziz",
+    "profession": "Actress",
+    "country": "Pakistan",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Television",
+      "Rising Star"
+    ],
+    "knownFor": [
+      "Pakistani television"
+    ],
+    "bio": "Iqra Aziz is a Pakistani television actress. Private life is out of scope.",
+    "television": [
+      "Khudparast"
+    ],
+    "film": [
+      "Information not currently verified."
+    ],
+    "modeling": [
+      "Information not currently verified."
+    ],
+    "appearances": [
+      "Information not currently verified."
+    ],
+    "related": [
+      "sehar-public",
+      "sajal-public"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "alia-public",
+    "name": "Alia Bhatt",
+    "profession": "Actress, producer",
+    "country": "India",
+    "tags": [
+      "Actor",
+      "Actress",
+      "Fashion"
+    ],
+    "knownFor": [
+      "Hindi cinema"
+    ],
+    "bio": "Alia Bhatt is an Indian actress and producer. Fashion notes require a confirmed show or campaign.",
+    "television": [
+      "Information not currently verified."
+    ],
+    "film": [
+      "Raazi",
+      "Gangubai Kathiawadi"
+    ],
+    "modeling": [
+      "Information not currently verified."
+    ],
+    "appearances": [
+      "Information not currently verified."
+    ],
+    "related": [
+      "deepika-public",
+      "kiara-public"
+    ],
+    "featured": true
+  }
+]

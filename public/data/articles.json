@@ -1,0 +1,536 @@
+[
+  {
+    "slug": "why-test-cricket-still-matters",
+    "title": "Why Test cricket still structures the sport",
+    "dek": "A format primer for readers who meet cricket first through T20 leagues.",
+    "category": "Cricket",
+    "section": "Cricket",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cricket.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Test cricket remains the longest examination in the international game: five days, two innings, and a ball that changes behaviour as it ages.",
+      "For SceneBuzz readers across the diaspora, Tests are also a calendar — a way of following Pakistan, India and others through a season rather than a night.",
+      "This explainer does not rank teams or invent a result. It describes why the format still sits underneath white-ball cricket.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "Test cricket",
+      "ICC",
+      "explainer"
+    ],
+    "related": [
+      "how-psl-changed-t20",
+      "pakistan-india-cricket-lens"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "how-psl-changed-t20",
+    "title": "How the PSL changed the T20 calendar for Pakistan fans",
+    "dek": "A league explainer, not a match report. No invented table positions.",
+    "category": "Cricket",
+    "section": "Cricket",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cricket.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "The Pakistan Super League sits in the global T20 window as a home tournament for Pakistan players and a destination for overseas professionals.",
+      "SceneBuzz will cover the PSL with fixtures and results only when an official feed is connected. Until then, this page is an architecture sample.",
+      "Franchises, drafts and overseas signings should be confirmed against PCB and league announcements.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "PSL",
+      "T20",
+      "Pakistan"
+    ],
+    "related": [
+      "why-test-cricket-still-matters",
+      "shaheen-new-ball"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "pakistan-india-cricket-lens",
+    "title": "Pakistan and India cricket, written for a shared audience",
+    "dek": "How SceneBuzz covers two neighbours without turning sport into hostility.",
+    "category": "Cricket",
+    "section": "Cricket",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cricket.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "SceneBuzz is not a national broadcaster. The cricket desk writes for readers who may support Pakistan, India, both, or neither.",
+      "Bilateral series, World Cups and league cricket all belong on the same site, with the same sourcing rules: no invented scores, no invented quotes.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "Pakistan",
+      "India",
+      "ICC"
+    ],
+    "related": [
+      "why-test-cricket-still-matters",
+      "featured-cricketers-method"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "featured-cricketers-method",
+    "title": "How SceneBuzz files Featured Cricketers & Legends",
+    "dek": "A directory is not a ranking. Here is the difference.",
+    "category": "Cricket",
+    "section": "Cricket",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cricket.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "SceneBuzz publishes player pages for a featured set of international cricketers. That set is not an objective top 50.",
+      "Retired players carry frozen career totals. Active players carry a verification warning until a live statistics API is connected.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "methodology",
+      "players"
+    ],
+    "related": [
+      "why-test-cricket-still-matters",
+      "how-psl-changed-t20"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "shaheen-new-ball",
+    "title": "The new-ball craft, from Wasim to Shaheen",
+    "dek": "A lineage essay using published careers, not invented bowling spells.",
+    "category": "Cricket",
+    "section": "Cricket",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cricket.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Pakistan’s left-arm new-ball history is public: Imran Khan, Wasim Akram, and a later generation that includes Shaheen Shah Afridi.",
+      "This feature does not invent a spell-by-spell comparison. It points readers to the published career pages on SceneBuzz.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "Wasim Akram",
+      "Shaheen Afridi"
+    ],
+    "related": [
+      "how-psl-changed-t20",
+      "featured-cricketers-method"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "pakistani-drama-ost-craft",
+    "title": "The craft of the Pakistani drama OST",
+    "dek": "Title songs as marketing, memory and licensed audio — not downloads.",
+    "category": "Pakistani Drama",
+    "section": "Drama",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-drama.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "An original soundtrack can travel farther than a serial’s ninth episode. OSTs are how many diaspora viewers first hear a new Hum or ARY title.",
+      "SceneBuzz will embed only official audio. This prototype does not host files.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "OST",
+      "Hum TV",
+      "ARY"
+    ],
+    "related": [
+      "how-to-watch-dramas-legally",
+      "humsafar-afterlife"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "how-to-watch-dramas-legally",
+    "title": "Where to watch Pakistani dramas without piracy",
+    "dek": "Networks, official apps and licensed YouTube — nothing else.",
+    "category": "Pakistani Drama",
+    "section": "Drama",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-drama.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "SceneBuzz does not host episodes and will not list pirate sites. Official network YouTube channels and licensed apps are the path.",
+      "Availability differs by country. Readers should use the platform that holds the rights in their region.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "legal viewing",
+      "OTT"
+    ],
+    "related": [
+      "pakistani-drama-ost-craft",
+      "upcoming-dramas-tba"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "humsafar-afterlife",
+    "title": "Humsafar, more than a decade on",
+    "dek": "Why a 2011 Hum TV serial still organises the Pakistani drama conversation.",
+    "category": "Pakistani Drama",
+    "section": "Drama",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-drama.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Humsafar paired Fawad Khan and Mahira Khan in a serial that remains a reference point for later productions.",
+      "This is not a recap of every episode. It is a catalogue note pointing to the SceneBuzz drama and actor pages.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "Humsafar",
+      "Fawad Khan",
+      "Mahira Khan"
+    ],
+    "related": [
+      "pakistani-drama-ost-craft",
+      "featured-actors-method"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "upcoming-dramas-tba",
+    "title": "Why SceneBuzz prints TBA instead of a guessed date",
+    "dek": "Release-date discipline for dramas and films.",
+    "category": "Pakistani Drama",
+    "section": "Drama",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-drama.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Unconfirmed calendars are a common source of error in entertainment media. SceneBuzz uses TBA or Expected until a network or studio speaks.",
+      "Upcoming pages exist so the architecture is ready; they are not a rumour mill.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "TBA",
+      "editorial standards"
+    ],
+    "related": [
+      "how-to-watch-dramas-legally",
+      "upcoming-movies-discipline"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "bollywood-after-theatres",
+    "title": "Bollywood after the theatrical window",
+    "dek": "How Hindi cinema meets diaspora audiences on licensed platforms.",
+    "category": "Bollywood",
+    "section": "Movie",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cinema.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Hindi films still open in cinemas, then move to licensed streamers on schedules that vary by title and territory.",
+      "SceneBuzz will not host films or quote unverified box-office figures.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "Bollywood",
+      "OTT"
+    ],
+    "related": [
+      "pakistani-cinema-map",
+      "upcoming-movies-discipline"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "pakistani-cinema-map",
+    "title": "A short map of Pakistani cinema for new readers",
+    "dek": "From Khuda Kay Liye to Maula Jatt, without invented grosses.",
+    "category": "Movies",
+    "section": "Movie",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cinema.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Pakistani cinema is not a single genre. Social drama, Punjabi action and festival titles sit on the same SceneBuzz movies desk.",
+      "Each film page lists official viewing language only.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "Lollywood",
+      "Maula Jatt"
+    ],
+    "related": [
+      "bollywood-after-theatres",
+      "humsafar-afterlife"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "upcoming-movies-discipline",
+    "title": "Upcoming movies: TBA is a feature, not a gap",
+    "dek": "How the films desk avoids fake calendars.",
+    "category": "Movies",
+    "section": "Movie",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-cinema.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Studio dates slip. SceneBuzz would rather show TBA than invent a Friday.",
+      "When a date is confirmed by the rights holder, the movie page should be updated and the sitemap regenerated.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "upcoming",
+      "TBA"
+    ],
+    "related": [
+      "bollywood-after-theatres",
+      "upcoming-dramas-tba"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "featured-actors-method",
+    "title": "Featured Pakistani and Indian actors — not a top 50",
+    "dek": "Directories, credits and the refusal to rank people.",
+    "category": "Celebrity",
+    "section": "Celebrity",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-news.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "SceneBuzz maintains two featured actor directories. Neither is an objective ranking.",
+      "Personal details that cannot be verified stay marked. Social URLs stay empty until they are official.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "actors",
+      "methodology"
+    ],
+    "related": [
+      "talk-of-the-town-standards",
+      "humsafar-afterlife"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "talk-of-the-town-standards",
+    "title": "Talk of the Town is not a gossip desk",
+    "dek": "Confirmed, reported, rumoured, unverified — and what we refuse to print.",
+    "category": "Talk of the Town",
+    "section": "Talk of the Town",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-fashion.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Talk of the Town covers public work: screen credits, modelling campaigns that can be sourced, and confirmed appearances.",
+      "It does not publish measurements, relationship rumours or income claims. Yamini Malhotra’s profile is the design example for that rule.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "editorial standards",
+      "personalities"
+    ],
+    "related": [
+      "yamini-malhotra-profile-note",
+      "featured-actors-method"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": true
+  },
+  {
+    "slug": "yamini-malhotra-profile-note",
+    "title": "How SceneBuzz approached the Yamini Malhotra profile",
+    "dek": "A worked example of verification limits on a personality page.",
+    "category": "Talk of the Town",
+    "section": "Talk of the Town",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-fashion.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "The Yamini Malhotra page lists widely reported professional credits and declines private detail.",
+      "Date of birth is marked as widely reported, not independently verified. Social accounts are omitted until official verification.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "Yamini Malhotra",
+      "verification"
+    ],
+    "related": [
+      "talk-of-the-town-standards",
+      "featured-actors-method"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "football-on-scenebuzz",
+    "title": "Football, on purpose smaller than cricket",
+    "dek": "Why Premier League and World Cup sit in a supporting desk.",
+    "category": "Football",
+    "section": "Sports",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-football.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "SceneBuzz will cover the Premier League, Champions League and World Cup without letting them crowd the cricket home.",
+      "No live tables are connected in this prototype.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "football",
+      "Premier League"
+    ],
+    "related": [
+      "why-test-cricket-still-matters",
+      "how-psl-changed-t20"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  },
+  {
+    "slug": "corrections-and-sample-news",
+    "title": "Sample stories, corrections, and what live news will require",
+    "dek": "How the newsroom architecture is meant to be used.",
+    "category": "Celebrity",
+    "section": "News",
+    "author": "SceneBuzz Editorial Team",
+    "published": "2025-03-12",
+    "updated": "2025-09-01",
+    "hero": "/assets/images/hero-news.jpg",
+    "caption": "Editorial still life produced for SceneBuzz. Not a news photograph of a specific event.",
+    "body": [
+      "Every prototype article is marked Sample / Demo. Authors are the SceneBuzz Editorial Team — no invented bylines.",
+      "When live reporting begins, each piece should carry sources, an updated timestamp and a path into the corrections policy.",
+      "This is sample editorial written for the SceneBuzz prototype. It is not a live news report and should be replaced with commissioned reporting before publication."
+    ],
+    "tags": [
+      "newsroom",
+      "corrections"
+    ],
+    "related": [
+      "talk-of-the-town-standards",
+      "featured-cricketers-method"
+    ],
+    "sources": [
+      "Official tournament and network records",
+      "Publicly documented career histories"
+    ],
+    "demo": true,
+    "featured": false
+  }
+]
