@@ -4,7 +4,6 @@ import { ShareBar } from "@/components/site/ShareBar";
 import { PhotoAttribution } from "@/components/media/PhotoCredit";
 import { TitleBanner } from "@/components/media/TitleBanner";
 import { getDrama } from "@/lib/data";
-import { mediaPaths } from "@/lib/media";
 import { breadcrumbLd, pageHead } from "@/lib/seo";
 
 export const Route = createFileRoute("/dramas/$slug")({
@@ -22,9 +21,7 @@ function DramaPage() {
       <Breadcrumbs items={[{ name: "Home", href: "/" }, { name: "Dramas", href: "/dramas" }, { name: d.title }]} />
       <div className="overflow-hidden rounded-xl border border-line bg-card dark:border-night-line dark:bg-night-card">
         <div className="relative h-64 md:h-96">
-          {banner ? <img src={banner.src} alt={banner.alt} className="h-full w-full object-cover" loading="eager" /> : <TitleBanner title={d.title} eyebrow="Pakistani drama" meta={meta} />}
-          <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
-          <div className="absolute inset-x-0 bottom-0 p-5 text-paper md:p-8"><p className="sb-kicker text-signal-soft">{d.status}</p><h1 className="mt-2 font-display text-4xl md:text-5xl">{d.title}</h1><p className="mt-2 text-sm text-paper/80">{meta}</p></div>
+          {banner ? <><img src={banner.src} alt={banner.alt} className="h-full w-full object-cover" loading="eager" /><div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-transparent" /><div className="absolute inset-x-0 bottom-0 p-5 text-paper md:p-8"><p className="sb-kicker text-signal-soft">{d.status}</p><h1 className="mt-2 font-display text-4xl md:text-5xl">{d.title}</h1><p className="mt-2 text-sm text-paper/80">{meta}</p></div></> : <TitleBanner title={d.title} eyebrow="Pakistani drama" meta={meta} />}
         </div>
         {banner ? <div className="px-5 pb-2 md:px-8"><PhotoAttribution photo={banner} /></div> : <p className="px-5 py-2 text-xs text-muted md:px-8">Original SceneBuzz editorial banner shown until a licensed drama image is supplied.</p>}
       </div>
